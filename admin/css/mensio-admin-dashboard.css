@@ -1,0 +1,358 @@
+#wpcontent { padding: 0 !important; }
+.DashPanel {
+  display: block;
+  width: 100%;
+  background: white;
+  margin-bottom: 2em;
+}
+.LeftPanel {
+  float: left;
+}
+.RightPanel {
+  float: right;
+}
+.PieChart {
+  max-width: 400px;
+}
+.PanelHeader {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #F1F1F1;
+}
+.PanelName {
+  font-weight: bold;
+}
+.ReportWrapper {
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.PanelFooter {
+  width: 100%;
+  padding: 5px;
+}
+.PanelHref {
+  display: inline-block;
+  margin-right: 5px;
+  float: right;
+  padding: 5px 10px;
+  background: #095256;
+  color: white !important;
+  text-decoration: none !important;
+}
+.PanelHref:hover,
+.PanelHref:visited {
+  background: #095256;
+  color: white;
+  text-decoration: none;
+}
+.ChartInfoTbl {
+  width: 100%;
+}
+.LblCol {
+  width: 150px;
+  font-weight: bold;
+}
+@media all and (max-width: 1026px) { 
+  .DashPanel {
+    width: 100%;
+    height: 500px;
+  }
+  .RightPanel {
+    float: left;
+  }  
+}
+#DIV_Edit {
+  position: relative;
+}
+.tabs {
+  background: transparent;
+  border: none !important;
+}
+.ui-widget-content {
+  background: transparent !important;
+}
+.ui-tabs {
+  border: none !important;
+}
+.ui-tabs-nav {
+  border: none;
+  padding: 0 !important;
+  border-bottom: 1px solid #D8D8D8;
+  background: transparent !important;
+}
+.ui-tabs-panel {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+.DashPanel {
+  width: 100%;
+  background: white;
+  margin-bottom: 1em;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.PanelHeader {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #F1F1F1;
+}
+.PanelName {
+  font-weight: bold;
+}
+.PanelInfo {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.PanelInfo .fa-times {
+  color: red;
+}
+.PanelInfo .fa-check {
+  color: green;
+}
+.PanelFooter {
+  width: 100%;
+  padding: 5px;
+}
+.infotbl {
+  width: 100%;
+}
+.LblCol {
+  padding: 5px;
+  width: 300px;
+}
+.InfoCol {
+  padding: 5px;
+}
+.MnsLogoWrap {
+  width: 400px;
+}
+.MnsLogoWrap img {
+  width: 100%;
+}
+.InfoPanel {
+  width: 46%;
+  float: left;
+  background: white;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+.InfoPanelHead {
+  width: 100%;
+  padding: 10px 5px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.InfoPanelIcon {
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  float: left;
+  margin-right: 5px;
+}
+.InfoPanelBody {
+  width: 100%;
+  height: 250px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  overflow: auto;
+}
+.InfoElement {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+.InfoElementLog {
+  width: 90%;
+  float: left;
+}
+.InfoElementLabel {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.InfoElementCtrl {
+  float: right;
+  width: 25px;
+}
+.InfoElementButton {
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.InfoElementButtonMore {
+  color: #204D74;
+}
+.InfoElementButtonClose {
+  margin-top: 4px;
+  color: #940107;
+}
+.InfoPanelFoot {
+  width: 100%;
+  padding: 10px;
+}
+.InfoSalesFooterLabel {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.InfoTable {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+.InfoTable thead {
+  text-align: left;
+  background: #095256;
+  color: white;
+}
+.InfoTable thead th {
+  padding: 5px 10px;
+}
+.InfoTable tbody td {
+  padding: 5px 10px;
+}
+.TicketText {
+  margin-top: 2em;
+  padding: 10px;
+  font-size: 16px;
+  height: 350px;
+  overflow: auto;
+}
+.TicketText p {
+  margin-bottom: 1.2em;
+}
+#InfoChartsFooter {
+  padding: 19px;
+}
+#ChartsList {
+  padding: 10px;
+}
+.StaticChartbar {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.StaticChartbarFiller {
+  padding: 10px;
+}
+.FillerRed {
+  background: #940107;
+  color: #940107;
+}
+.FillerGreen {
+  background: green;
+  color: green;
+}
+.FillerBlue {
+  background: #8F6855;
+  color: #8F6855;
+}
+.FillerYellow {
+  background: #ABA194;
+  color: #ABA194;
+}
+.WellcomeModal {
+  position: absolute;
+  display: block;
+  top: 1em;
+  left: 3em;
+  z-index: 99;
+  width: 80vw;
+  border: 1px solid #ccc;
+  background: white;
+  color: black;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.WellcomeModal .modal-body {
+  padding: 0;
+}
+.WellcomeWrapper {
+  margin-top: 10px;
+  width: 100%;
+  height: 50vh;
+  padding: 10px;
+  padding-top: 0;
+  overflow: auto;
+  text-align: justify;
+}
+.Wellcome_button_row {
+  width: 100%;
+  min-width: 300px;
+  float: right;
+  background: white;
+  text-align: right;
+  padding: 1em;
+}
+.Wellcome_button_row .button {
+  background: #204D74;
+  color: white;
+  height: 35px;
+  border: none;
+  box-shadow: none;
+}
+.Wellcome_button_row .button i {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Wellcome_button_row .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+.Wellcome_button_row .button:focus {
+  background-color: #2B6EA5;
+  color: white;
+}
+.infobubble {
+  display: block;
+  margin-top: 10%;
+  width: 80%;
+  height: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.BubbleWrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.BubbleIconDiv {
+  display: table-cell;
+  vertical-align: top;
+  width: 20%;
+  text-align: center;
+}
+.BubbleIconDiv i {
+  margin-top: 8px;
+}
+.BubbleTextDiv {
+  display: table-cell;
+  vertical-align: top;
+  width: 90%;
+}
+.BubbleTextDiv p {
+  margin: 0;
+}

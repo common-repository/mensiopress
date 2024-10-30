@@ -1,0 +1,1093 @@
+
+.product-view-variations-wrapper{
+    height:75px;
+    position:absolute;
+    width:100%;
+    overflow: hidden;
+    border: 1px solid #cecece;
+    margin-top:10px;
+    right:0;
+}
+@media screen and (max-width:760px){
+    .product-view-variations-wrapper{
+        position:relative;
+    }
+}
+.product-view-variations {
+    display: block;
+    position: absolute;
+    width: 100% !important;
+    height: 100%;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    background: #fff;
+    overflow: unset;
+}
+.product-view-variations:hover{
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation img{
+    height: 55px;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation:hover > img{
+    border:1px solid #000;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation:first-child {
+    margin-right:15px;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation {
+    font-size: 15px;
+    position: relative;
+    display: table-cell;
+    float: right;
+    margin-top: 10px;
+    max-width:50px;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation-descr {
+    display:none;
+}
+div.mns-html-content .mns-block.mns-product  .product-view-variations:hover .product-view-variation{
+    width:auto !important;
+    display:table-cell;
+    float:right;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation:hover .product-view-variation-descr{
+    position: absolute;
+    right: 0;
+    display: block;
+    z-index: 5;
+    width: 200px;
+    top: 100%;
+    background: #fff;
+    border:1px solid #cecece;
+    padding:5px;
+}
+@media screen and (max-width:600px){
+    div.mns-html-content .mns-block.mns-product .product-view-variation:hover .product-view-variation-descr{
+        top:55px;
+        left:0 !important;
+        right:auto !important;
+    }
+    div.mns-html-content .mns-block.mns-product
+      .product-view-variation:hover.sendLeft .product-view-variation-descr{
+        right:0 !important;
+        left:auto !important;
+    }
+    div.mns-html-content .mns-block.mns-product .product-view-variation{
+        position:relative;
+    }
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation-descr a,
+div.mns-html-content .mns-block.mns-product .product-view-variation-descr a > *{
+    width: 100%;
+    display: block;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation-descr img{
+    box-shadow: none !important;
+    height: auto !important;
+    max-width: 150px !important;
+    margin:0 auto;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation-descr .mensioPrice{
+    font-size:25px;
+    font-weight:bold;
+    float:right;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation-descr .attribute {
+    height: 30px;
+    text-align: left;
+}
+div.mns-html-content .mns-block.mns-product .product-view-variation-descr .attribute-value {
+    float: right;
+}
+@media screen and (max-width:600px){
+    .product-view-variations-wrapper{
+        width: 100% !important;
+        height:auto !important;
+        overflow: unset !important;
+        padding: 10px 0 !important;
+        text-align:left;
+    }
+    .product-view-variations{
+        position:relative;
+    }
+    .product-view-variation {
+        display: inline-block !important;
+        float: none !important;
+        margin:0 !important;
+    }
+}
+div.mns-html-content .mns-block.mns-product .Bundle,
+div.mns-html-content .mns-block.mns-product .Bundle a {
+    line-height: 20px;
+    font-size: 15px;
+}
+.mnsAttributes,.mnsBundleProducts,.mensioProductFiles{
+    display:none;
+}
+.mensioProductFiles a{
+    text-decoration:none;
+    box-shadow: none !important;
+}
+.mensioProductFiles a .fa{
+    width:35px;
+    text-align: center;
+    margin-right: 10px;
+}
+.MensioTopRightComparisonDIV .ListButtons{
+    display:none;
+}
+.mns-block.mns-product_comparison #MensioComparison .ListButtons{
+    display:block;
+}
+.mns-block.mns-product_comparison .NoProdsFound{
+    display:none;
+}
+.MensioTopRightComparisonDIV .mensioPrice{
+    text-align:center;
+}
+.MensioTopRightComparisonDIV .mensioObjectTitle{
+}
+.MensioTopRightComparisonDIV td {
+    position:relative;
+}
+.MensioTopRightComparisonDIV #MensioComparison:not(.hasProducts) tr:last-child{
+    border:none !important;
+    text-align:left;
+}
+.MensioTopRightComparisonDIV #MensioComparison:not(.hasProducts) td{
+    text-align:left !important;
+    font-weight:normal;
+}
+.MensioTopRightComparisonDIV .bottomButs {
+    display: inline-block;
+    display: none;
+    bottom: 7px;
+    position: absolute;
+    width: auto;
+    right: 0;
+    padding: 0 5px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    background: #cecece;
+    text-align: center;
+    border-radius: 3px;
+    width: auto !important;
+}
+.MensioTopRightComparisonDIV tr:nth-child(2) img {
+    height: auto !important;
+    max-width: 50px !important;
+    max-height: 100px;
+}
+.mns-block.mns-product .MensiocompareProduct {
+}
+.MensiocompareProduct i.fa{
+    font-size:35px;
+    font-family:FontAwesome;
+}
+.MensioComparisonListRemoveAll{
+    float:right;
+    text-decoration: none;
+    box-shadow:unset !important;
+}
+.mns-block #MensioComparison tr td{
+    padding:5px 0;
+}
+.mns-block #MensioComparison tr.isAttr td span{
+    display:block;
+    line-height:20px;
+}
+.mns-block #MensioComparison tr.isAttr td span:nth-child(1) {
+    font-size:16px;
+}
+#MensioComparison span.mensioPrice {
+    font-weight: bold;
+    font-size: large;
+}
+.mns-block:not(.mns-product_comparison) #MensioComparison div.bottomButs {
+    position:absolute;
+    bottom:5px;
+    width:100%;
+}
+.mns-block.mns-product_comparison .ListButtons .fa.fa-shopping-cart.add-to-cart {
+    margin: -8px !important;
+}
+.mns-block #MensioComparison div.comparisonName {
+    font-size:0.8rem;
+    font-weight:bold;
+    margin:5px auto 20px;
+    width:70%;
+}
+#MensioComparison span.attribute i {
+    font-size:0.9rem;
+}
+#MensioComparison span.attributeValue {
+    font-size: 0.8rem;
+    font-weight:bold;
+}
+#MensioComparison span.attributeValue > div.HexValue{
+    width:50px !important;
+    height:25px !important;
+}
+.mns-block #MensioComparison tr:nth-child(1){
+    display:none;
+}
+.mns-block #MensioComparison tr:nth-child(2n) {
+    background:#ececec;
+}
+#MensioComparison tr:nth-child(3) td{
+    text-align:center;
+    vertical-align:top;
+    position:relative;
+}
+#MensioComparison.Widget tr:nth-child(2){
+    display:block !important;
+}
+#MensioComparison.Widget tr:nth-child(2) td{
+    vertical-align: top;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding:0;
+}
+#MensioComparison.Widget tr:nth-child(2) td > div:nth-child(1){
+    float:left;
+}
+#MensioComparison tr:nth-child(3){
+    background:none;
+}
+#MensioComparison tr:nth-child(3) td a div{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+#MensioComparison tr:nth-child(2){
+    text-align:right;
+    background:none;
+}
+.mns-block #MensioComparison tr:nth-child(2){
+    display:none;
+}
+#MensioComparison tr:nth-child(2) td{
+    vertical-align:top;
+    text-align:center;
+}
+.MensioTopRightComparisonDIV #MensioComparison .MensioRemoveFromComparison{
+    display:none;
+}
+.mns-block #MensioComparison .MensioRemoveFromComparison{
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    opacity:0.4;
+}
+.mns-block #MensioComparison .MensioRemoveFromComparison:hover{
+    opacity:1;
+}
+#MensioComparison .MensioRemoveFromComparison .fa.fa-trash-o{
+    font-family:FontAwesome !important;
+    font-size:22px;
+}
+.MensioTopRightComparisonDIV hr{
+    display:none;
+}
+.MensioTopRightComparisonDIV #MensioComparison:not(.hasProducts) tr {
+    display:none;
+}
+.MensioTopRightComparisonDIV #MensioComparison:not(.hasProducts) tr:last-child {
+    display: block !important;
+    border-top:2px solid #000;
+}
+.mns-block #MensioComparison tr:last-child {
+    border-top:2px solid #000;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(2) {
+    text-align: right;
+    background: none;
+    display: block;
+}
+#MensioComparison tr:last-child th:nth-child(2) {
+    width:100%;
+    text-align:right;
+}
+.MensioTopRightComparisonDIV > div{
+    display:table-cell;
+    vertical-align:middle;
+    position:relative;
+}
+.MensioTopRightComparisonDIV > div:nth-child(1){
+    color:#fff;
+    padding:0 5px 0 0;
+}
+.MensioTopRightComparisonDIV > div:nth-child(1) .fa{
+    font-size:20px;
+}
+.MensioTopRightComparisonDIV > div:nth-child(1) .fa.black{
+    color:black;
+}
+.MensioTopRightComparisonDIV > div:nth-child(1) .fa.white{
+    color:white;
+}
+.MensioTopRightComparisonDIV > div:nth-child(2){
+    padding-left:20px;
+}
+.MensioTopRightComparisonDIV .MensioComparisonQuantities{
+    position: absolute;
+    border-radius:10px;
+    background:red;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 65% !important;
+    line-height: 20px;
+    bottom: -18px;
+    margin: 13px 10px auto;
+    z-index: 0;
+}
+.MensioTopRightComparisonDIV > #MensioComparison > .cart-object > .cart-image img{
+    width:150px;
+}
+.MensioTopRightComparisonDIV > #MensioComparison > .cart-object > div{
+    display:table-cell;
+    padding:5px;
+}
+.MensioTopRightComparisonDIV > #MensioComparison > .cart-object{
+    display:table-row;
+}
+.MensioTopRightComparisonDIV > .mensioObjectTitle{
+    font-size: 1.5rem;
+    color:#fff;
+}
+.MensioTopRightComparisonDIV{
+    position:relative;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.MensioTopRightComparisonDIV .MensioComparisonListRemoveAll{
+    display:none;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(2) > td > div:nth-child(2) br {
+    display:none;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(2) > td > div:nth-child(2) {
+    margin-bottom:20px;
+}
+.MensioTopRightComparisonDIV .FirstPrice{
+    display:none;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:last-child td {
+    text-align: right;
+    padding: 0px;
+}
+.MensioTopRightComparisonDIV.sendRight > #MensioComparison{
+    right: auto;
+    left: 20px;
+    top: 90%;
+}
+.MensioTopRightComparisonDIV.sendUp > #MensioComparison{
+    top: auto !important;
+    bottom: 100%;
+    margin: 0;
+}
+.MensioTopRightComparisonDIV.sendLeft > #MensioComparison{
+    right:10%;
+    left: auto;
+    top: 100%;
+    border-radius: 5px;
+    border-collapse: unset;
+    box-shadow: 0 0 55px #a9a9a9;
+}
+.MensioTopRightComparisonDIV > #MensioComparison{
+    height:0px;
+    width:auto;
+    min-width:260px;
+    position:absolute;
+    z-index:5;
+    top:25px;
+    right:0;
+    background:#fff;
+    padding:10px;
+    border:1px solid #cecece;
+    visibility:hidden;
+    transition: all 0s ease 0.3s;
+    transition-delay: 0.1s;
+    width:400px;
+    display:none;
+}
+.MensioTopRightComparisonDIV:hover #MensioComparison{
+    display:table;
+    visibility:visible;
+    transition: all 0s ease 0s;
+}
+.MensioTopRightComparison{
+    position:relative;
+    background-size:100%;
+    width:20px;
+    height:20px;
+}
+.MensioTopRightComparison.MensiowhiteComparison{
+    background:url('../icons/cart-w.png') no-repeat;
+    background-position:center right;
+    background-size:100%;
+}
+.MensioTopRightComparison.MensioblackComparison{
+    background:url('../icons/cart.png') no-repeat;
+    background-position:center right;
+    background-size:100%;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(2) td > a{
+    font-weight:normal !important;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:not(:nth-child(3)){
+    display:none !important;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(3) td {
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+    display: block;
+    width: 100%;
+    padding:5px 0;
+    border-bottom: 1px solid #cecece;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(3) td > div:nth-child(1),
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(3) td > div:nth-child(1) img{
+    width:60px !important;
+    height:60px !important;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(3) td > div.comparisonName,
+.MensioTopRightComparisonDIV #MensioComparison tr:nth-child(3) td > div.bottomButs{
+    float:right;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr.ComparisonLink {
+    display:block !important;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr.ComparisonLink a{
+    font-size:14px;
+    line-height:14px;
+}
+.MensioTopRightComparisonDIV #MensioComparison tr td > div.comparisonName {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    font-size: 12px;
+    line-height: 12px !important;
+    text-align:left;
+}
+.MensioTopRightComparisonDIV #MensioComparison .ComparisonLink,
+.MensioTopRightComparisonDIV #MensioComparison .ComparisonLink *{
+    text-align:left;
+    width:100%;
+}
+@media screen and (max-width:600px){
+    .MensioTopRightComparisonDIV > #MensioComparison{
+        right: auto !important;
+        left: 0 !important;
+        top: 90%;
+        width:100%;
+        box-shadow: 0 0 40px #000;
+    }
+}
+.fb-share-button.fb_iframe_widget:before {
+    content: "f";
+    color: #fff;
+    position: absolute;
+    left:0;
+    font-size: 18px;
+    width:100%;
+    text-align:center;
+    height:25px;
+}
+.MensioObjectTools > div{
+    display:inline-block;
+}
+.MensioShareButtons{
+    width: 100%;
+    text-align: center;
+    padding-top:15px;
+}
+.MensioShareButtons i{
+    font-family:FontAwesome;
+}
+@media screen and (max-width:720px){
+    .MensioShareButtons a {
+        font-size: 20px;
+    }
+}
+div.mns-html-content .related-products .item{
+    width:24%;
+    display:inline-block;
+}
+@media screen and (max-width:720px){
+    div.mns-html-content .related-products .item{
+        width:50%;
+    }
+    div.mns-html-content .related-products .item img{
+        width:100%;
+    }
+}
+.mns-block .mns-list-attributes{
+    margin:0;
+}
+.mns-block.mns-advanced_search .mns-list-attributes{
+    display:none;
+}
+.mns-advanced_search-products.mns-list{
+    min-height:50px;
+}
+.mns-block.mns-advanced_search .fa,
+.mns-block.mns-advanced_search .Pagination,
+.mns-block.mns-advanced_search .pagination
+{
+    color:#000;
+}
+.mns-block.mns-advanced_search  .mns-product-filters > * label{
+    margin:3px;
+    padding:3px;
+}
+.mns-block.mns-advanced_search  .mns-product-filters {
+}
+.mns-block.mns-advanced_search label.filter.check {
+    display: inline-block;
+}
+.mns-block.mns-advanced_search input[type="button"] {
+    position: absolute;
+    right: 0;
+}
+.mns-block.mns-advanced_search input[name=searchKeyWord]{
+    background: url(../icons/search-button.png) no-repeat center right;
+    background-size: auto 70%;
+}
+.mns-block.mns-advanced_search .SearchCell select{
+    width:100%;
+}
+.mns-block.mns-advanced_search .SearchCell{
+    display: table-cell;
+    padding:5px;
+}
+.mns-block.mns-advanced_search .SearchByAttr{
+    display: table-row;
+}
+.mns-block.mns-advanced_search .SearchAttributes{
+    border-left: 5px solid gray;
+    padding: 15px;
+    display: table;
+}
+.mns-block.mns-advanced_search:not(.show-prods-in-rows) .mns-list .mns-list-row {
+    display:block !important;
+}
+.mns-block.mns-advanced_search:not(.show-prods-in-rows) .mns-list .mns-list-row .mns-list-item-new{
+    display:inline-block !important;
+    width:30%;
+}
+.mns-block.mns-advanced_search:not(.show-prods-in-rows).col-2 .mns-list .mns-list-row .mns-list-item-new{
+    width:45%;
+}
+.mns-block.mns-advanced_search:not(.show-prods-in-rows).col-2 .mns-list .mns-list-row .mns-list-item-new .mnsListRow > div:nth-child(1){
+    width:50%;
+    margin:0 auto;
+}
+.mns-block .mns-list .product-view.add-to-cart{
+    width:100%;
+    display:block;
+}
+.mns-block.hide-add-to-cart .product-view.add-to-cart{
+    display:none;
+}
+#MensioComparison td {
+    width: 25%;
+    text-align:center;
+}
+.mns-block .mns-list .MensiocompareProduct i{
+}
+.mns-html-content .mns-block .mensioListButtons{
+    display:table-row;
+}
+.mns-html-content .mns-block .mensioListButtons > div,
+.mns-html-content .mns-block .mensioListButtons > div button{
+    padding:0 !important;
+    width:27px;
+    height:27px;
+    display:table-cell !important;
+}
+.mns-html-content .add-to-wish-list,
+.mns-html-content .add-to-wish-list > *{
+    border:none;
+}
+.mns-html-content .add-to-wish-list-button{
+    border:none;
+    background:url('../icons/like.png');
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    height:27px;
+    width:27px;
+    padding:0;
+}
+.mns-html-content .ListButton.add-to-wish-list:hover{
+    background:url('../icons/list-icons/1.0/mensiopress-function-wishlist-on.svg?ver=1.0');
+    background-size:100% 100%;
+    border:none;
+}
+.mns-html-content .ListButton.add-to-wish-list{
+    background:url('../icons/list-icons/1.0/mensiopress-function-wishlist-off.svg?ver=1.0');
+    background-size:100% 100%;
+    border:none;
+}
+.mns-html-content .ListButton.MensiocompareProduct:hover{
+    background:url('../icons/list-icons/1.0/mensiopress-function-compare-on.svg?ver=1.0');
+    background-size:100% 100%;
+    border:none;
+}
+.mns-html-content .ListButton.MensiocompareProduct{
+    background:url('../icons/list-icons/1.0/mensiopress-function-compare-off.svg?ver=1.0');
+    background-size:100% 100%;
+    border:none;
+}
+.mns-block .mns-list .MensioSeeBarcode{
+    display:inline-block;
+    border: 0px solid #ccc;
+    margin-right:4px;
+    float:left;
+    height:27px;
+    width:27px;
+    background:url('../icons/barcode.png');
+    background-size:100% auto;
+    position:relative;
+}
+.mns-block .mns-list .MensioSeeBarcode .BarCodes{
+    display:none;
+}
+.mns-block .mns-list .MensioSeeBarcode:hover .BarCodes{
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+    width: 500px;
+    max-width: 150px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+    line-height:15px;
+    font-size:15px;
+}
+.MensioSeeBarcode .SeeBarcode i{
+    font-family:FontAwesome;
+    display:none;
+}
+button.SeeBarcode {
+    font-size: 23px;
+    background: none;
+    border: none;
+}
+.mns-block .mns-list .MensioSeeSKU button{
+    background:none;
+}
+.mns-block .mns-list .MensioSeeSKU{
+    display:inline-block;
+    border: 1px solid #ccc;
+    float:left;
+    height:27px;
+    width:27px;
+    background-image:url('../icons/sku.png');
+    border:none;
+    position:relative;
+}
+.mns-block .mns-list .MensioSeeSKU .SKU{
+    display:none;
+}
+.mns-block .mns-list .MensioSeeSKU:hover .SKU{
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+    width: 500px;
+    max-width: 150px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 15px;
+    line-height:15px;
+    text-align: left;
+}
+.MensioSeeSKU .SeeSKU i{
+    font-family:FontAwesome;
+    display:none;
+}
+button.SeeSKU {
+    font-size: 23px;
+    background: none;
+    border: none;
+}
+.mns-block.hide-sku .MensioSeeSKU{
+    display:none;
+}
+.mns-block.mns-favorites .favorite-item{
+    display:table-row;
+}
+.mns-block.mns-favorites .favorite-item .favorite-data{
+    display: table-cell;
+    padding: 10px 5px;
+    text-align: center;
+    vertical-align: middle
+}
+.mns-block.mns-favorites .add-to-cart,
+.mns-block.mns-favorites .remove-from-favorites{
+    font-size:20px;
+}
+.mns-block.mns-favorites .add-to-cart:hover .fa,
+.mns-block.mns-favorites .remove-from-favorites:hover .fa{
+    color:#fff;
+}
+div.mns-html-content .mns-block.mns-favorites .favorite-item .favorite-data:nth-child(1) {
+    width:160px;
+}
+div.mns-html-content .mns-block.mns-favorites .favorite-item .favorite-data img {
+    min-width: 50px;
+    max-width: 130px !important;
+}
+div.mns-html-content .mns-block.mns-favorites .favorite-item .favorite-data:nth-child(2) {
+    text-align: left;
+    min-width: 130px;
+    font-weight: bold;
+    padding-right: 8px;
+}
+.mns-block.hide-barcode .MensioSeeBarcode{
+    display:none;
+}
+.MensiocompareProduct .fa.fa-exchange{
+}
+.mns-block.hide-add-to-comparison-button .MensiocompareProduct{
+    display:none;
+}
+.mns-block.hide-add-to-favorites-button .add-to-wish-list{
+    display:none;
+}
+.mns-list-item .BarCodes,.mns-list-item .SKU{
+    height:auto !important;
+}
+.mns-block.mns-new_products .mensioListButtons *{
+    max-width:1.8rem;
+    width:1.8rem;
+    height:1.8rem;
+}
+@media screen and (max-width:600px){
+    .mns-block.mns-new_products .mensioListButtons *{
+        max-width:none;
+    }
+}
+.mns-block.mns-category:not(.show-prods-in-rows) .mns-list .MensiocompareProduct {
+}
+.mns-block.mns-category .mns-list-item-new .mns-list-attributes *{
+    text-align:left !important;
+}
+.mns-block.hide-attributes .mns-list-attributes{
+    display:none;
+}
+.mns-block.mns-favorites button{
+    background:none;
+    padding:5px 10px;
+}
+.mns-block.mns-favorites button:hover{
+    background:#000;
+}
+.mns-advanced_search .MensioAttrs.mns-product-filters div.filter-title {
+    display:block;
+    width:100%;
+}
+div.mns-html-content .mns-advanced_search .mns-product-filters div.FilterAttributesCell label.filter span:nth-child(2){
+    display:none;
+}
+div.mns-html-content .mns-advanced_search .mns-product-filters:not(.mns-filters-closed) label.filter{
+    text-align:center;
+}
+.MensioAdvancedSearchfields,.MensioAdvancedSearchResult{
+    display:table-cell;
+}
+.MensioAdvancedSearchfields{
+    width:25%;
+}
+.MensioAdvancedSearchResult{
+    width:75%;
+}
+.MensioAdvancedSearchResult .searchResult img{
+    width:150px;
+}
+.searchResult {
+    position: relative;
+    margin-bottom:5px;
+}
+.searchResult .add-to-cart {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+div.mns-html-content .mns-advanced_search .MensioAttrs.mns-product-filters {
+    display: block;
+    width: auto;
+}
+div.mns-html-content .mns-advanced_search .MensioAttrs.mns-product-filters {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    border:none;
+    padding-right: 20px;
+    box-shadow:none;
+}
+div.mns-html-content .mns-advanced_search .SearchResultsNavigationPage{
+    text-align:center;
+    margin:5px 0;
+}
+div.mns-html-content .mns-advanced_search .SearchResultsNavigationPage input[type=button]{
+    position:relative;
+    right:auto;
+}
+div.mns-html-content .mns-advanced_search hr:not(.titleLine){
+    display:none;
+}
+.mns-advanced_search .MensioAdvancedSearchResult .mns-list-item{
+    width:24% !important;
+    flex-basis:24% !important;
+}
+.mns-advanced_search .MensioAdvancedSearchResult .mns-list-item .add-to-cart {
+    height: 50px;
+}
+#mensioAdvantages-Tab .Advantage{
+    padding:5px;
+}
+#mensioAdvantages-Tab .Advantage:nth-child(odd){
+    background:#ececec;
+}
+#mensioAdvantages-Tab .Advantage:nth-child(even){
+    background:#fff;
+}
+#mensioAdvantages-Tab{
+    width:100%;
+}
+div[name=NavPages]{
+    display: inline-block;
+}
+span.NavPage {
+    padding: 5px;
+    cursor:pointer;
+}
+span.NavPage.selected {
+    padding: 5px;
+    background:#cecece;
+    color:#000;
+}
+div[class^=MensioPressWidget] .MensioWidgetIcon.CompareIcon,
+div[class^=MensioPressWidget] .MensioWidgetIcon.CompareWhiteIcon{
+    width:20px;
+    height:20px;
+    background:url('../icons/list-icons/1.0/mensiopress-symbol-compare-white.svg?ver=1.0') no-repeat;
+    background-position:center right;
+    background-size:100%;
+}
+div[class^=MensioPressWidget] .MensioWidgetIcon.CompareBlackIcon{
+    width:20px;
+    height:20px;
+    background-image:url('../icons/list-icons/1.0/mensiopress-symbol-compare-black.svg?ver=1.0');
+    background-position:center right;
+    background-size:100%;
+}
+@media screen and (max-width: 900px) {
+    .MensioTopRightComparisonDIV > div:nth-child(2){
+        padding-left:0;
+    }
+}
+@media screen and (max-width: 900px) {
+    .MensioTopRightFavoritesDIV .MensioPressTopRightFavorites{
+        margin-top:5px;
+    }
+    .MensioTopRightFavoritesDIV .mensioObjectTitle{
+        margin:6px 0;
+        padding-left:25px !important;
+        font-size:18px !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .MensioTopRightFavoritesDIV .mensioObjectTitle{
+        padding-left:5px !important;
+        display:table-cell !important;
+    }
+    .MensioTopRightFavoritesDIV .MensioPressTopRightFavorites{
+        display:table-cell !important;
+    }
+}
+.MensioTopRightFavoritesDIV{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding:5px 14px;
+    background: rgb(240,183,161);
+    position:relative;
+    font-family:Helvetica;
+}
+div[class^=MensioPressWidget] .MensioWidgetIcon.FavoritesIcon,
+div[class^=MensioPressWidget] .MensioWidgetIcon.FavoritesWhiteIcon{
+    display:table-cell;
+    background:url('../icons/list-icons/1.0/mensiopress-symbol-wishlist-white.svg?ver=1.0');
+    background-size:100% 100%;
+    width:20px;
+    height:20px;
+    position:relative;
+    margin-top:5px;
+    transition: all 0s ease 0s;
+}
+div[class^=MensioPressWidget] .MensioWidgetIcon.FavoritesBlackIcon{
+    background:url('../icons/list-icons/1.0/mensiopress-symbol-wishlist-black.svg?ver=1.0');
+}
+.MensioTopRightFavoritesDIV .mensioObjectTitle{
+    display:block;
+    color:#fff;
+    font-weight:bold;
+    font-size: 1.5rem !important;
+    line-height: 32px;
+    padding-left: 45px;
+}
+.MensioTopRightFavoritesDIV > hr{
+    display:none;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget > p{
+    text-align:left;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget{
+    display: block;
+    position: absolute;
+    right: 10%;
+    width: 400px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    z-index: 5;
+    top:40px;
+    visibility: hidden;
+    transition: all 0s ease 0s;
+    transition-delay: 0.1s;
+    box-shadow: 0 0 55px #a9a9a9;
+}
+.MensioTopRightFavoritesDIV:hover .mns-list.Widget{
+    display: block;
+    visibility:visible;
+    position: absolute;
+    right: 10%;
+    width: 400px;
+    background: #fff;
+    border: 1px solid #cecece;
+    padding: 10px;
+    z-index: 5;
+    top:40px;
+    transition: all 0s ease 0s;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget:not(.Empty){
+    overflow-y: scroll;
+    max-height: 564px;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget:not(.Empty) img{
+    width:50px;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget > p > a{
+    font-size:14px;
+    line-height:14px;
+}
+@media screen and (max-width: 600px) {
+    .MensioTopRightFavoritesDIV .mns-list.Widget,
+    .MensioTopRightFavoritesDIV:hover .mns-list.Widget{
+        width:100%;
+        right:auto;
+        left:0;
+        box-shadow: 0 0 40px #000;
+    }
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget.Empty  .cart-item{
+    height:auto;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget.Empty  p{
+    display:none;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget.Empty  .cart-item{
+    border:none;
+    padding:0;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget{
+    display:none;
+}
+.MensioTopRightFavoritesDIV.sendUp .mns-list.Widget{
+    top:auto !important;
+    bottom:100%;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget .cart-item{
+    display: block;
+    position: relative;
+    height: 90px;
+    border-bottom: 1px solid #cecece;
+    padding: 10px 0;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget .cart-item .cart-data.product-cost{
+    position: absolute;
+    bottom: 16px;
+    right: 5px;
+    font-weight: bold;
+    padding: 0 5px;
+    font-size: 1.5rem;
+    background: #cecece;
+    text-align: center;
+    border-radius: 3px;
+    width: auto !important;
+    min-width:150px;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget .cart-item .cart-data:nth-child(1){
+    float:left;
+    width:60px;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget .cart-item .cart-data:nth-child(2){
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 1.1.5rem !important;
+    position:absolute;
+}
+.MensioTopRightFavoritesDIV .mns-list.Widget .cart-item .cart-data:nth-child(4),
+.MensioTopRightFavoritesDIV .mns-list.Widget .cart-item .cart-data:nth-child(5){
+    display:none;
+}
+.MensioTopRightFavoritesDIV p{
+    margin:0;
+    padding:0;
+}
+div#MensioPressFavoritesQuantity {
+    position: absolute;
+    bottom: -90%;
+    right: -10px;
+    background: red;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 65% !important;
+    line-height: 20px;
+    top: auto;
+}
+fieldset.user-data input[type=password]{
+    padding: 0 0 0 10px;
+}
+h2.FinalPriceWithCoupon {
+    padding: 10px 0;
+    margin:0;
+}

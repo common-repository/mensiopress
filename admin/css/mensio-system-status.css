@@ -1,0 +1,44 @@
+#wpcontent { padding: 0 !important; }
+.Mns_MainMenuNav .action-item {
+  padding-left: 4px;
+  padding-right: 3px;
+}
+.DashPanel {
+  width: 100%;
+  background: white;
+  margin-bottom: 1em;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.PanelHeader {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #F1F1F1;
+}
+.PanelName {
+  font-weight: bold;
+}
+.PanelInfo {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.PanelInfo .fa-times {
+  color: red;
+}
+.PanelInfo .fa-check {
+  color: green;
+}
+.PanelFooter {
+  width: 100%;
+  padding: 5px;
+}
+.infotbl {
+  width: 100%;
+}
+.LblCol {
+  padding: 5px;
+  width: 300px;
+}
+.InfoCol {
+  padding: 5px;
+}

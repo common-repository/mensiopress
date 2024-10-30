@@ -1,0 +1,370 @@
+
+#wpcontent {
+  padding: 0 !important;
+}
+.menu_button_row {
+  display: block;
+}
+#DIV_Edit {
+  min-width: 397px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.clshddn {
+  display: none;
+}
+.tabs {
+  background: transparent;
+  border: none !important;
+}
+.ui-tabs {
+  border: none !important;
+}
+.ui-tabs-nav {
+  border: none;
+  padding: 0 !important;
+  border-bottom: 1px solid #D8D8D8;
+  background: white !important;
+}
+.ProductTab {
+  padding: 10px;
+  background: white;
+}
+.DIV_Cur_Img {
+  display: table-cell;
+  vertical-align: top;
+  width: 150px;
+  min-width: 150px;
+  text-align: center;
+}
+.DIV_Cur_Img .label_symbol {
+  float: left;
+}
+.Mns_Img_Container {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+.Mns_Img_Container img {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Mns_Img_Btn {
+  width: 50%;
+  float: left;
+}
+.StoreInfoFldsDiv {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 10px;
+}
+.ListDiv {
+  width: 100%;
+  height: 350px;
+  overflow: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ListRow {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+}
+.LangName {
+  padding: 10px;
+  float: left;
+}
+.LangCheck {
+  padding: 10px;
+  float: right;
+}
+.DateFrmtSlct {
+  padding: 10px;
+}
+#DateFrmtDiv .ListRow {
+  width: 150px;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#DateFrmtDiv .ListRow:hover {
+  background: #399b00;
+  color: white;
+}
+.active {
+  background: #399b00;
+  color: white;
+}
+.TabWrapper {
+ padding: 10px; 
+}
+.OrderTmplSelectorDiv {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.TermsCols {
+  display: table-cell;
+  vertical-align: top;
+}
+#TermsListDiv {
+  min-width: 200px;
+  padding-right: 10px;
+}
+#TermsListWraper {
+  width: 100%;
+  height: 565px;
+  overflow: auto;
+}
+.TermSelector {
+  display: inline-block;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.TermSelector:hover, .TermSelector:focus {
+  -webkit-box-shadow: inset 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: inset 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.SelectedTerm {
+  -webkit-box-shadow: inset 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: inset 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.ActiveTerm {
+  border: 1px solid #095256;;
+  background: #095256;;
+  color: white;
+}
+.TermSelectorDate {
+  float: left;
+  width: 135px;
+  line-height: 50px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.TermsTagBtns {
+  float: left;
+  height: 50px;
+  width: 25px;
+}
+.TagBtn {
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.TermsTagBtns .TagBtn {
+  line-height: 50px;
+}
+#TermsEditDiv {
+  width: 100%;
+}
+.PublDateDiv {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 2em;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.TermsWrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#FLD_TermsOfUse_ifr { 
+  height: 379px !important;
+}
+#FLD_TermsOfUse_ifr p {
+  margin-bottom: 5px !important;
+}
+.ModalTermsView {
+  max-height: 450px;
+  overflow: auto;
+  word-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#FLD_GglAnalytics {
+  height: 200px;
+  resize: none;
+}
+#FLD_GglMap {
+  height: 120px;
+  resize: none;
+}
+#PermissionsTblDiv {
+  width: 100%;
+}
+.PermissionsTbl {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+.PermissionsTbl thead {
+  background: #095256;
+  color: white;
+}
+.PermissionsTbl thead th {
+  padding: 5px 10px;
+}
+.PermissionsTbl tbody td {
+  text-align: center;
+  padding: 5px 10px;
+}
+.usrspn {
+  display: inline-block;
+  line-height: 28px;
+  padding: 0;
+}
+#ModalUserSelector .PermissionsTbl,
+#ModalUserSelector .PermissionsTbl td {
+  text-align: left !important;
+}
+.CtrlCol {
+  padding: 0;
+  width: 30px;
+  text-align: right;
+}
+.UsrPmnBtn {
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  background: green;
+  color: white;
+}
+.TabMailWraper {
+  width: 100%;
+}
+.Hidden {
+  display: none;
+}
+.MailTmplWraper {
+  width: 100%;
+}
+#FLD_MailTemplates_ifr { 
+  height: 379px !important;
+}
+#FLD_MailTemplates_ifr p {
+  margin-bottom: 5px !important;
+}
+.MailTmplSlctr {
+  height: 480px;
+  display: table-cell;
+  vertical-align: top;
+  width: 180px;
+  min-width: 150px;
+  text-align: center;
+}
+.MailTmplEdit {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 10px;
+}
+.TemplateSelector {
+  display: block;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  padding: 10px;
+  cursor: pointer;
+}
+.TemplateSelector:hover {
+  -webkit-box-shadow: inset 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: inset 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.ActiveTemplate {
+  -webkit-box-shadow: inset 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: inset 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.HelpButtonDiv {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2em;
+}
+.HelpButtonDivSmall {
+  display: inline-block;
+  width: 15px;
+  line-height: 15px;
+  padding: 0;
+  margin-left: 10px;
+}
+.HelpButton {
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #2B6EA5;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  border-radius: 50%;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.HelpButtonSmall {
+  display: block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  color: #2B6EA5;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  border-radius: 50%;
+}
+.VarName {
+  display: inline-block;
+  font-weight: bold;
+  width: 200px;
+}
+#MailTempPreviewDIV {
+  display: none;
+  z-index: 9999;
+  position: absolute;
+  top: -6em;
+  right: 0em;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  background: white;
+}
+#MailTempPreview {
+  width: 30vw;
+  height: 65vh;
+  padding: 10px;
+}
+.code_snipset {
+  background: #ededed;
+  color: black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.BoldVar {
+  font-weight: bold;
+}

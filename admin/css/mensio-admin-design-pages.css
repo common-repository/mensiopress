@@ -1,0 +1,1965 @@
+
+#wpcontent {
+  padding: 0 !important;
+}
+#Pages_isHome_Header,
+#Pages_isHome_Footer {
+  text-align: center;
+}
+.Mns_Tbl_Body_Table_Column {
+  max-width: 50%;
+}
+.Mns_Tbl_Body_Table_Column_small {
+  width: 140px;
+}
+.Mns_Tbl_Body_Table_Column_small  input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+html{
+    padding:0 !important;
+}
+html.saving #thePage{
+    opacity:0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#MENSIO .wrap {
+    margin: 32px 20px 0 35px !important;
+}
+#pageSettingsButton{
+    float: right;
+    background: none;
+    border: none;
+}
+#ModalBox{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:none;
+    background:rgba(0,0,0,0.7);
+    z-index: 9999;
+}
+#exitModalBox{
+    height:30px;
+    width:30px;
+    background:url("../../public/icons/close.png") no-repeat 100%;
+    float:right;
+    margin-top:35px;
+    margin-tight:35px;
+    border:none;
+}
+.ps__thumb-y{
+    right:0;
+}
+#MnsModal{
+    display:none;
+    z-index:9999999;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.8);
+    height:100%;
+    overflow-y:scroll;
+}
+#MnsModal .ModalForm{
+    margin: 100px auto;
+    width: 50%;
+    background: #fff;
+}
+#theSettings, #theEdits{
+    -webkit-touch-callout: none; 
+      -webkit-user-select: none; 
+       -khtml-user-select: none; 
+         -moz-user-select: none; 
+          -ms-user-select: none; 
+              user-select: none; 
+}
+#theSettings .mns-element-to-create:not(.fa),
+#theEdits .current-blocks:not(.fa),
+#theEdits #currentObjects *:not(.fa),
+#theEdits #theEditsProperties *:not(.fa),
+#MensioConfirmation:not(.fa)
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size:10pt !important;
+}
+#theEdits button,
+.center-bottom-buttons button{
+    margin:0 !important;
+    box-shadow:none !important;
+}
+.settings-row select{
+    width:100%;
+}
+.settings-row:hover .plus-button{
+    color:#000;
+}
+.plus-button{
+    background:none !important;
+}
+.right{
+    float:right;
+}
+div#currentObjects {
+    width: 100%;
+}
+#mnsPageEditorLogo{
+    width:200px;
+    height:55px;
+    background:url("../icons/public/mensiopress-builder-logo-landscape-200.png");
+}
+#mnsGrad{
+    width:195px;
+    height:50px;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    background: -moz-linear-gradient(top, rgba(241,241,241,1) 0%, rgba(241,241,241,1) 39%, rgba(241,241,241,0) 100%); 
+    background: -webkit-linear-gradient(top, rgba(241,241,241,1) 0%,rgba(241,241,241,1) 39%,rgba(241,241,241,0) 100%); 
+    background: linear-gradient(to bottom, rgba(241,241,241,1) 0%,rgba(241,241,241,1) 39%,rgba(241,241,241,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#00f1f1f1',GradientType=0 ); 
+}
+#theEdits select,#theEdits input{
+    background: #916953;
+    color: #fff;
+    border:none;
+}
+#theEdits label{
+    position:relative;
+    line-height: 14pt;
+}
+#theEdits .description{
+    display:none;
+    position:absolute;
+    top:0px;
+    left:-450px;
+    background:#fff;
+    color:#000;
+    padding:20px;
+    z-index:999999;
+    width:450px;
+    height:150px;
+    z-index:99999;
+    box-shadow: 0 0 20px #000;
+}
+#theEdits .description img{
+    height:100%;
+}
+#theEdits .backToEdits{
+    display:block !important;
+}
+#theEdits{
+    z-index:666;
+    color:#fff;
+    height:100%;
+    right:0;
+    top:0;
+    position:fixed;
+    width:200px;
+    float:right;
+    overflow:unset;
+    padding:10px;
+}
+.mns-html-content .mns-block{
+    padding:50px 0 0 0 !important;
+}
+.mns-html-content .mns-block .SimpleDisplay{
+    display:table !important;
+}
+.mns-html-content:first .SimpleDisplay .mns-image{
+    height:auto;
+}
+.mns-html-content .mns-block .SimpleDisplay .mnsListRow,
+.mns-html-content .mns-block .SimpleDisplay .mnsListRow > *{
+    display:block !important;
+    width:100% !important;
+}
+.mns-html-content .mns-block.col-3 .SimpleDisplay .mns-image img {
+}
+.mns-html-content .mns-block.col-2 .SimpleDisplay .mns-image img {
+    max-height:250px;
+    max-width:250px;
+}
+.mns-html-content .mns-block.mns-brand{
+    min-height:450px !important;
+}
+.mns-block.mns-blank.mns-object {
+    box-shadow: none !important;
+}
+.mns-html-content .mns-block.ui-droppable-hover .block-tool-bar{
+}
+.mns-html-content .mns-block .block-tool-bar .fa{
+    color:#fff;
+}
+.mns-html-content .mns-Dropzone{
+    height:20px;
+}
+.mns-html-content .mns-Dropzone.BlockIsSelected{
+    background:red;
+}
+.mns-html-content .mns-block.BlockIsSelected .block-tool-bar{
+    border-radius:0;
+}
+.mns-html-content .between{
+    background:red;
+    color:white;
+    text-align:center;
+    width:100%;
+}
+.mns-html-content .mns-block.BlockIsSelected.ui-droppable-hover{
+    border-top:10px solid red !important;
+    border-radius:0 !important;
+}
+.mns-html-content .mns-block:not(.cusBorder){
+    border-radius:0 0 10px 10px !important;
+}
+#close-edits{
+    top: 1%;
+    right: 0%;
+    position: fixed;
+    display: block !important;
+    z-index: 999999;
+    background: #916953;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+}
+#theEdits div.bottom-buttons {
+    right:0;
+    position:absolute;
+}
+div.bottom-buttons {
+    position: fixed;
+    bottom: 0;
+    width: 200px;
+    height: 39px;
+    text-align: center;
+    z-index:99999999;
+}
+#theSettings div.bottom-buttons {
+    box-shadow: -5px 0 13px #000;
+}
+#theEdits div.bottom-buttons {
+    box-shadow: 5px 0 13px #000;
+}
+#theEdits .close-properties{
+    right: auto !important;
+    left: auto !important;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+}
+.close-properties:hover .bubbleDescr {
+    right: 0;
+}
+#theEdits .save-settings{
+    left: 85px;
+}
+.ps__rail-y:hover{
+    background:none;
+}
+.ps__rail-y{
+    opacity:1;
+}
+#theSettings #mns-objects{
+    height:100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align:center;
+    position:relative;
+}
+#theSettings #settings{
+    position:relative;
+    height:auto;
+}
+#theSettings{
+    z-index:666;
+    color:#fff;
+    height:100%;
+    left:0;
+    top:0;
+    left:0%;
+    position:fixed;
+    width:200px;
+    float:left;
+}
+#thePage .edit-carousel{
+    background: #afafaf;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding: 70px;
+}
+#thePage{
+    display: inline-block;
+    width:100%;
+    max-width: 1000px;
+    position: relative;
+    transform: scale(0.8);
+    transform-origin: 50% 0;
+    margin:0 auto;
+}
+div.notice{
+    display:none;
+}
+@-moz-document url-prefix() {
+    #thePage{
+        top:0;
+    }
+}
+#theSettings h1{
+    font-size:25px;
+    font-weight:normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 75px;
+}
+#theEdits .settings-cell:empty{
+    display:none;
+}
+#theEdits .settings-cell:nth-child(1) input[type=checkbox]{
+    float:right;
+}
+#theEdits .settings-cell:nth-child(2){
+    text-align:left;
+}
+#theSettings .settings-cell:nth-child(2){
+    padding:5px;
+}
+#theSettings #settings-table{
+    height: 750px;
+    width:99%;
+    overflow-y: scroll;
+    display: inline-block;
+    z-index: 0;
+    position: relative;
+}
+#theEdits .settings-row{
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    border: 1px solid #827a71;
+    border-radius: 3px;
+    padding: 6px;
+    margin-top:4px;
+}
+#theEdits .settings-cell,#currentBlocks{
+    font-weight:bold;
+}
+#theEdits .settings-cell.flag img,
+#theEdits .settings-cell.flagPageTitle img{
+    max-width:30px;
+    max-height:18px;
+}
+#theEdits .settings-cell.flag,
+#theEdits .settings-cell.flagPageTitle{
+    width:20%;
+    margin-top:3px;
+}
+#theEdits .settings-cell.PageTitle{
+    width:75%;
+    margin-top:3px;
+}
+#theEdits .settings-cell{
+    display:inline-block;
+    text-align:left;
+    width:100%;
+    vertical-align:middle;
+    margin:0;
+    padding:0;
+}
+#theEdits .settings-cell > input[type=range]{
+    width:100%;
+}
+#theEdits .settings-cell strong{
+    margin:0;
+}
+#theEdits .settings-cell .CarouselOptions > label,
+#theEdits .settings-cell > *{
+    max-width:100%;
+}
+#thePage .mns-block.disabled-mns-block{
+    opacity:0.5;
+}
+#theSettings .settings-cell{
+    display:table-cell;
+    padding:20px 0;
+    border-bottom:1px solid #404040;
+}
+#theSettings .settings-row:hover input[type=text]{
+    color:#000;
+}
+#theSettings select{
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 1px;
+}
+#pg_function select{
+}
+#pg_function option{
+    color:#fff;
+    text-align:center;
+}
+#theSettings input[type=text]{
+    color:#fff;
+}
+#theSettings .settings-row{
+    display:table-row;
+}
+#theSettings .mns-element-to-create:nth-child(1){
+    margin-top:5px;
+}
+#theSettings .mns-element-to-create{
+    font-weight:normal;
+    cursor:pointer;
+}
+#theSettings .mns-element-to-create.disabled{
+    cursor:not-allowed;
+}
+#theSettings .mns-element-to-create.ui-draggable-dragging{
+    position:fixed !important;
+    width:160px;
+}
+#theSettings .mns-element-to-create .mns-explain-button .object-preview{
+    display:none;
+}
+#theSettings .mns-element-to-create .mns-explain-button{
+    position:absolute;
+    top:5px;
+    right:5px;
+    line-height: 15px;
+}
+#theSettings form{
+    padding:0;
+}
+#theSettings .mns-element-to-create .mns-explain-button:hover .mns-explain{
+    display:block;
+    opacity:1;
+    vertical-align: middle;
+}
+#theSettings .mns-element-to-create .mns-explain{
+    display: none;
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    left: 98%;
+    top: 3px;
+    width: 350px;
+    background: rgba(255,255,255,.8);
+    color:#000;
+    padding: 20px;
+    border: 1px solid #000;
+    text-align:left;
+    z-index:999;
+    font-size:14px;
+    line-height:1;
+}
+#theEdits input[type=range]{
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+    margin: 10px 0;
+}
+#theEdits input[type=range]:focus {
+  outline: none; 
+}
+#theEdits input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+#theEdits input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius:20px;
+  cursor: pointer;
+  margin-top: -7px; 
+}
+#theEdits input[type=range]::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius:20px;
+  cursor: pointer;
+}
+#theEdits input[type=range]::-ms-thumb {
+  height: 36px;
+  width: 16px;
+  border-radius:20px;
+  cursor: pointer;
+}
+#theEdits input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5.4px;
+  cursor: pointer;
+  border-radius: 1.3px;
+}
+#theEdits select:focus option{
+    color:#000;
+    font-size:15px;
+}
+#theEdits input[type=text],#theEdits input[type=number],#theEdits select{
+    padding:5px !important;
+    margin:0 !important;
+    background:#fff;
+    color:#000;
+    width:100%;
+    height: auto;
+    line-height: 17px;
+    font-size: 15px !important;
+    font-weight: normal;
+}
+#theEdits #currentObjects h2{
+    font-size:28px;
+    margin:0;
+}
+#theEdits .addMetaDescr{
+    font-size: 16px;
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    z-index: 5;
+}
+#theEdits .addMetaDescr.fa-arrow-circle-up{
+    margin-top:auto;
+}
+#theEdits .addMetaDescr .descr{
+    top: 0;
+    position: relative;
+    left: 0;
+    height: 25px;
+    line-height: 32px;
+    width: 100%;
+    text-align: left;
+    margin-bottom:10px;
+}
+#theEdits .addMetaDescr textarea{
+    width:100%;
+    height:260px;
+}
+#theEdits .addMetaDescr:after{
+    height:32px;
+}
+#theEdits .page-description{
+    position:relative;
+    display:block;
+    display:none;
+}
+#theEdits .page-description textarea[name=page_description]{
+    height:150px;
+}
+#theEdits #pg_function,#theEdits #page_title_div{
+    background: none;
+    margin-bottom:5px;
+    border: 1px solid #827a71;
+}
+#theEdits #page_title_div input{
+    padding-left:4px;
+}
+#mnsEditsTitle{
+    margin:0 !important;
+    width:100% !important;
+}
+#theSettings .mns-element-to-create,#theEdits #mnsEditsTitle{
+    width: 90%;
+    padding: 8px 5px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px 7px 8px 0;
+    position: relative;
+    line-height: 10px;
+    font-size: 13px;
+    display: inline-block;
+    border-radius: 5px;
+    float: none !important;
+    border: none;
+    background: none !important;
+    border-radius: 0 0 5px 5px;
+}
+#theEdits .backToEdits{
+    border:none;
+}
+#mns_settings #mnsEditsTitle{
+    display:block !important;
+}
+#theSettings #page_title_div{
+    background: #000;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    margin: 0;
+}    
+#theSettings #page_title{
+    font-size: 18px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+#theSettings #mns_html_page_title,
+#theSettings #mns_html_page_content{
+    display:none;
+}
+#theSettings textarea{
+    color:#000;
+}
+.mns-object:hover{
+}
+.mns-object:hover > .mns-edit-obj{
+    opacity:1;
+}
+.mns-object{
+    position:relative;
+    transition:background .3s;
+}
+.mns-edit-obj .fa{
+    line-height:35px;
+}
+.mns-edit-obj {
+    font-size: 12px;
+    float:right;
+    opacity:0;
+    background-size:100%;
+    height:50px;
+    width:20px;
+    margin-right:10px;
+}
+.mns-obj-to-rem {
+    font-size: 12px;
+    float:right;
+    opacity:0;
+    background-size:90%;
+    height:50px;
+    width:20px;
+    margin-right:10px;
+}
+#edits #edit-product-categories{
+    width:100%;
+}
+#edits input[type=range]{
+    padding:0;
+}
+#edits input[type=radio]{
+    margin:0;
+}
+#edits,#mns-objects{
+    display:block;
+    height:100px;
+}
+#theSettings h3.mns-settings-title{
+    background:#fff;
+    color:#000;
+    padding:0 20px;
+    position:relative;
+    border-left: 15px solid #916953;
+    margin: 20px 0 10px;
+    font-size:20px;
+    font-weight: bold;
+}
+#theSettings .tab[status=open]{overflow-y:scroll;overflow-x:hidden;}
+#theSettings .tab[status=closed]{overflow:hidden;}
+#theSettings .tab[status=open] h3.mns-settings-title:after{
+    content:" ";
+    position:absolute;
+    top:5px;
+    right:5px;
+    width:25px;
+    height:25px;
+    background:url("../images/arrow-down.png") no-repeat;
+    background-size:100%;
+}
+#theSettings .tab[status=closed] h3.mns-settings-title:after{
+    content:" ";
+    position:absolute;
+    top:3px;
+    right:20px;
+    width:25px;
+    height:25px;
+    background:url("../images/arrow-up.png") no-repeat;
+    background-size:100%;
+}
+#theSettings .tab{
+    height:100px;
+    font-size:14px;
+    font-weight:normal;
+    line-height:1.75;
+}
+.mnsImageSelection .close,.mnsImageSelection .apply-images{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    padding: 5px 12px;
+    width: 31px;
+    height: 31px;
+    color: #fff;
+    cursor:pointer;
+}
+.mnsImageSelection .apply-images{
+    right:60px;
+}
+.mnsImageSelection > div.highlight{
+    opacity:1;
+    border:5px solid #000;
+}
+.mnsImageSelection > div:hover{
+    opacity:1;
+}
+.mnsImageSelection #images{
+    display:none;
+}
+.mnsImageSelection > div{
+    opacity:0.7;
+    width:175px;
+    height:175px;
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-size:auto 100%;
+    background-position:center;
+    margin:5px;
+}
+.mnsImageSelection{
+    display:none;
+    position:fixed;
+    height:90%;
+    width:100%;
+    top:50px;
+    border:1px solid #000;
+    background:#fff;
+    color:#000;
+    z-index:999;
+    overflow-y:scroll;
+}
+.mns-prod-imgs{
+    position:relative;
+}
+.mns-prod-imgs:hover .mns-obj-to-rem{
+    display:block;
+    cursor:pointer;
+}
+.mns-block .block-tool-bar .title {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 11px 5px;
+    font-weight: bold;
+}
+.mns-block div.block-tool-bar {
+    padding:0 5px;
+    position: absolute;
+    width: 100%;
+    height:50px;
+    top: 0;
+    left: 0;
+    display:block !important;
+    border-radius:0;
+    text-align: left;
+}
+.currentBlockEdit .block-tool-bar{
+    display:block;
+}
+.mns-block .mns-obj-to-rem .fa{
+    line-height:32px;
+}
+.mns-block:hover .mns-obj-to-rem:before{
+    display:block;
+    content:" ";
+    width:35px;
+    height:35px;
+    position:absolute;
+    top:0;
+    right:0;
+    cursor:pointer;
+}
+.mns-block:hover .block-tool-bar{
+    opacity:1;
+}
+.mns-html-content .mns-block:hover .mns-edit-obj,
+.mns-html-content .mns-block:hover .mns-obj-to-rem,
+.currentBlockEdit .mns-edit-obj,.currentBlockEdit  .mns-obj-to-rem{
+    opacity:1;
+    display:block;
+    color:#fff;
+    font-size:20px;
+    padding: 6px;
+    cursor:pointer;
+}
+.mns-obj-to-rem{
+    float:right;
+    z-index:5;
+    padding:5px 15px;
+    border-radius:0 0 0 20px;
+    display:none;
+}
+.inactive.close-properties{
+    background:#bf6c6f !important;
+}
+.close-properties,.back-button{
+    background:#940107 !important;
+}
+#mns_html_page{
+    display:none;
+}
+#close-settings,#close-edits{
+    bottom: 6px;
+    left: 135px;
+    position: fixed;
+    display: block !important;
+    z-index: 99999;
+    background: #204D74;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    height: 25px;
+    width: 25px;
+    margin:0;
+    padding:0;
+    line-height:25px;
+}
+#close-edits{
+    left:auto;
+    top:auto;
+    right:90px;
+    bottom:6px;
+}
+#saving-settings{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: url(../icons/default/loading.gif) rgba(255,255,255,.7) center center;
+    z-index: 998;
+    background-repeat: no-repeat;
+    top:0;
+}
+#theSettings .form-save-settings{
+    left:65px;
+    position:absolute;
+}
+#theSettings .open-settings {
+    position: relative;
+    background: #5f4913;
+    bottom: 0;
+    top: 8px;
+}
+#theSettings #hide-theSettings{
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    font-size: 30px;
+    z-index: 666;
+}
+#theEdits #hide-theEdits{
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    font-size: 30px;
+    z-index: 666;
+}
+div:not(.center-bottom-buttons) .close-properties,
+div:not(.center-bottom-buttons) .back-button{
+}
+.center-bottom-buttons select[name=fast-go-to-edit]{
+    padding: 0;
+    margin: 0;
+    height: auto !important;
+    border-radius: 0;
+}
+.center-bottom-buttons {
+    background: #fff;
+    text-align:center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 667;
+    padding:7px;
+    box-shadow:0 0 13px #000;
+}
+.center-bottom-buttons button{
+    padding:2px !important;
+    font-size: 14px !important;
+    width: 25px;
+    height: 25px;
+    position:relative;
+}
+.center-bottom-buttons button.revert{
+    background:#222;
+}
+.center-bottom-buttons button *{
+    color:#fff;
+}
+.bottom-buttons{
+    z-indx:10;
+}
+.save-settings{
+    background:#095256;
+}
+.bottom-buttons.right{
+    right:0;
+}
+.bottom-buttons button{
+    background: #095256;
+    color: #fff !important;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    white-space: normal;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    will-change: box-shadow,transform;
+    font-size: 12px;
+    line-height: 2;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 10px;
+}
+.center-bottom-buttons .select{
+    margin-bottom: -8px !important;
+    display: inline-block !important;
+    width: 300px !important;
+    margin-right: 3px;
+    font-size: 10pt;
+    height: 25px !important;
+    line-height:10px;
+}
+#theEdits .select::after, .center-bottom-buttons .select::after{
+    line-height:40px;
+}
+.center-bottom-buttons .select select{
+    font-size:10pt;
+    height:100% !important;
+}
+#theSettings input[type=number]{
+    width:80px;
+    background:none;
+    border:none;
+}
+#theSettings input[type=color]{
+    background:none;
+    padding:0;
+    border:none;
+}
+#theSettings hr{
+    background: #404040;
+}
+#mns_settings > div{
+    display:none;
+    width:100%;
+}
+.settings-row{
+    transition:background .2s;
+    border-bottom: 1px solid #fff;
+    padding-bottom:10px;
+}
+.settings-row:hover{
+}
+.mns-html-content .mns-block .CarouselDisplay{
+    background:#AAAAAA;
+    height: 150px;
+    text-align:center;
+}
+.mns-block .owl-carousel{
+    display:none !important;
+}
+.mns-html-content .mns-block .CarouselDisplay:after{
+    content: "Carousel";
+    font-size: 120px;
+    bottom: 0;
+    line-height: 120px;
+    color:#fff;
+}
+.mns-block.carousel-display{
+}
+.mns-block.carousel-display .owl-carousel{
+    padding:120px 0;
+}
+.mns-block .owl-carousel.owl-drag .owl-item{
+    width:150px !important;
+}
+#theSettings.brand_page #mns-objects #category,
+#theSettings.brand_page #mns-objects #related_products,
+#theSettings.brand_page #mns-objects #product
+{
+    opacity:0.5;
+}
+#MensioConfirmation{
+    position: fixed;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    display:none;
+}
+#question{
+    margin-bottom:40px;
+    font-size:22px;
+}
+#MensioMessage #answer-YES{
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    background: green;
+    color: #fff;
+    border-radius: 10px 0px 0 10px;
+    padding: 5px;
+    font-size: 20px;
+    cursor:pointer;
+}
+#MensioMessage #answer-NO{
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    background: red;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    padding: 5px;
+    font-size: 20px;
+    cursor:pointer;
+}
+#MensioMessage{
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    font-size: 25px;
+    width: 50%;
+    margin: 0 auto;
+    top: 150px;
+    left:-100%;
+    text-align: center;
+    display:none;
+}
+#MensioSettings{
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    font-size: 25px;
+    margin: 0 auto;
+    left: -100%;
+    text-align: center;
+    display: none;
+    top: 30px;
+    bottom: 30px;
+    height: auto !important;
+    position: fixed;
+    left: 20% !important;
+    right: 20%;
+}
+#MensioSettings{
+    text-align:left;
+    height:80%;
+    overflow-y:scroll;
+}
+#MensioSettings form{
+    width:95%;
+    margin:0 auto;
+}
+#MensioSettings button.button.wp-color-result {
+    min-width: 150px;
+    border:1px solid #000;
+    padding:10px;
+}
+#MensioSettings
+    .ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-icons.ui-accordion-header-active {
+    background-image: none !important;
+    background-color: #916953 !important;
+    color: #fff;
+    border:none;
+}
+#MensioSettings
+    .ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-icons .ui-accordion-header-icon{
+        display:none;
+}
+div#MensioSettings button,
+div#MensioSettings button:hover {
+    padding: 5px !important;
+    box-shadow:none;
+    height:auto !important;
+    background:none;
+}
+#MensioSettings label {
+    display: inline-block;
+}
+#MensioSettings #Skins label {
+    display:block;
+}
+#MensioSettings .otherSettings{
+    display:table;
+}
+#MensioSettings .otherSettings h3{
+    margin:0;
+}
+#MensioSettings .otherSettings > div{
+    display:table-row;
+}
+#MensioSettings .otherSettings > div > div{
+    display:table-cell;
+}
+div#MensioSettings input[type=submit]{
+}
+div#MensioSettings button.form-save-settings{
+    background: #095256;
+    color: #fff;
+    padding: 5px 15px !important;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 20%;
+    left: 20%;
+    width: 100%;
+    max-width: 60%;
+    margin:0;
+}
+div#MensioMessage input[type=button].closeConfirmation,
+div#MensioSettings input[type=button].closeConfirmation {
+    height: 35px !important;
+    width: 35px !important;
+    z-index: 9;
+    color: #000 !important;
+    text-align: center;
+    border-radius: 100%;
+    border:1px solid #c5c5c5 !important;
+    background: #f6f6f6 !important;
+}
+div#MensioSettings .Input > div{
+    font-weight: bold;
+}
+input.my-color-field.wp-color-picker,
+input.button.button-small.wp-picker-default {
+    display: none;
+}
+.wp-picker-container, .wp-picker-container.active{
+    display:block;
+}
+.closeConfirmation,.closeModal{
+    background: none !important;
+    font-size: 15px !important;
+    color: #000 !important;
+    position: absolute !important;
+    top: 3px !important;
+    right: 3px !important;
+    width: 40px !important;
+    height: 25px !important;
+    line-height: 0 !important;
+    border:none;
+    padding:0 !important;
+    margin:0  !important;
+    font-weight:normal !important;
+    box-shadow:0 0 0 !important;
+}
+.closeConfirmation .fa{
+    color:#aaa;
+    font-size: 2em;
+}
+.closeConfirmation:hover .fa{
+    color:#000;
+}
+.closeConfirmation:hover{
+}
+.clonedDIV{
+    width:200px;
+    padding: 10px 5px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 6px 5px;
+    position: relative;
+    line-height: 14px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: -3px 3px 5px rgba(0,0,0,.5);
+    float: none !important;
+}
+#currentBlocks{
+    border: 1px solid;
+    padding:5px;
+    border-radius: 3px;
+}
+.current-blocks:hover {
+}
+.current-blocks {
+    border: 1px solid #000;
+    border-radius:0 0 5px 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: normal;
+    line-height:10px;
+}
+.arrowPointNew{
+    position:absolute;
+    left:-10px;
+    top:-50px;
+    font-size:50px;
+}
+.mns-html-content p.mns-block .block-tool-bar{
+    display:none !important;
+}
+.mns-html-content p.mns-block{
+    margin:0;
+    padding:23px;
+    border:0px !important
+}
+.TestingGap{
+    background:red;
+    color:#fff;
+    width:100%;
+}
+#MensioSettings .settingsHead{
+    font-size: 17px;
+    font-weight:bold;
+}
+#MensioSettings span.attrTitle{
+    margin-left:20px;
+    font-size:16px;
+}
+#MensioSettings .MnsSkinColor{
+    height:25px;
+    width:25px;
+    display:inline-block;
+    margin-right:5px;
+    border:1px solid silver;
+    margin-bottom: -5px;
+    border-radius:3px;
+}
+#MensioSettings label input[type=radio] {
+    margin: 0;
+    margin-right: 15px;
+    margin-bottom: 4px;
+}
+#theEdits label {
+    font-size: 20px;
+    margin-bottom: -25px;
+}
+#MensioSettings hr {
+    margin-top: 0;
+}
+#theEdits [type="checkbox"]:not(:checked),
+#theEdits [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+#theEdits [type="checkbox"]:not(:checked) + label,
+#theEdits [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+#theEdits [type="checkbox"]:not(:checked) + label:before,
+#theEdits [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 0px;
+  width: 17px; height: 17px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+#theEdits [type="checkbox"]:not(:checked) + label:after,
+#theEdits [type="checkbox"]:checked + label:after {
+  content: '\2713';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #000;
+  transition: all .2s;
+}
+#theEdits [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+#theEdits [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+#theEdits [type="checkbox"]:disabled:not(:checked) + label:before,
+#theEdits [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+#theEdits [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+#theEdits [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+#theEdits [type="checkbox"]:checked:focus + label:before,
+#theEdits [type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+#theEdits label{
+    margin-bottom: 0;
+}
+.bubbleDescr{
+    display: none;
+    font-weight:normal;
+}
+button:hover .bubbleDescr{
+    z-index: 999;
+    background: #fff;
+    padding: 10px !important;
+    bottom: 25px !important;
+    position: absolute !important;
+    color:#000 !important;
+    box-shadow:0 0 5px #000 !important;
+    width:180px !important;
+    display:block !important;
+    text-align: left;
+    line-height: 23px;
+    text-transform: none;
+}
+#theEdits .bubbleDescr{
+    right: 20px;
+}
+#theSettings .bubbleDescr{
+    left: 20px;
+}
+.MnsCustomSelect{
+    height: 31px;
+    width: 100%;
+    position:relative;
+}
+.MnsCustomSelect span{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    height: 50%;
+    z-index: 9999;
+}
+.MnsCustomSelect .category:last-child {
+    border-bottom:1px solid #000;
+}
+.MnsCustomSelect .category {
+    position: relative;
+    z-index: 999;
+    background: inherit;
+    padding:5px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    font-weight:normal;
+}
+#MensioProperties{
+    overflow:scroll-y;
+    overflow-y: scroll;
+}
+#MensioProperties .ps-scrollbar-y-rail{
+    left: -15px;
+}
+#MensioProperties .ps-scrollbar-y-rail .ps-scrollbar-y{
+    height:150px;
+}
+#MensioProperties #mns_styles .settings-row:last-child{
+    margin-bottom: 50px;
+}
+.MnsCustomSelect{
+    display:none !important;
+}
+.MnsCustomSelect.TextSize{
+    z-index:999;
+}
+.MnsCustomSelect.EditCol{
+    z-index:998;
+}
+.MnsCustomSelect.ElementDisplay{
+    z-index:997;
+}
+ #theEdits .select select,
+#MensioSettings .select select,
+.center-bottom-buttons .select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+  font-size:14px;
+  line-height:14px;
+}
+#theEdits .select,
+#MensioSettings .select,
+.center-bottom-buttons .select {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 25px;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: .25em;
+}
+#theEdits .select select,
+#MensioSettings .select select,
+.center-bottom-buttons .select select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 5px !important;
+  cursor: pointer;
+  display:block !important;
+}
+#theEdits .select select::-ms-expand,
+#MensioSettings .select select::-ms-expand,
+.center-bottom-buttons .select select::-ms-expand {
+  display: none;
+}
+#theEdits .select::after,
+.center-bottom-buttons .select::after,
+#MensioSettings .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: -8px;
+    right: 0;
+    bottom: 0;
+    padding: 0 .7em;
+    background: #34495e;
+    color: #fff;
+    pointer-events: none;
+    font-size: 14px;
+    font-family: Arial;
+}
+#theEdits .select.active:after {
+    content: '\25B2';
+}
+#theEdits .select:hover::after,
+.center-bottom-buttons .select:hover::after,
+#MensioSettings .select:hover::after {
+  color: #f39c12;
+}
+#theEdits .select::after,
+#MensioSettings .select::after,
+.center-bottom-buttons .select::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+#mns_settings textarea {
+    width: 100%;
+    height: 250px;
+    resize: none;
+}
+.openModalBox{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:999999;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,.7);
+    color:#fff;
+    display:none;
+}
+.ModalContent{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+    background: #fff;
+    padding: 45px 20px;
+}
+.ModalContent .wp-editor-area {
+    color:#000 !important;
+}
+.quicktags-toolbar{
+    display:block !important;
+}
+.mns-block.mns-blank {
+    height:35px !important;
+}
+.Mns_Tbl_Body_Table tr td:nth-child(2){
+    width:20%;
+}
+.Mns_Tbl_Body_Table_Column.Mns_Editable_Column:hover .Mns_Subline{
+    display:block;
+}
+div#newMensioPage .row{
+    display:table-row;
+}
+div#newMensioPage .row span{
+    display:table-cell;
+    padding:10px 0 10px;
+}
+div#newMensioPage .row span  *{
+    width:100%;
+    display: block;
+}
+div#newMensioPage span > div{
+    width:50%;
+    display:table-cell;
+}
+div#newMensioPage {
+    margin: 10% auto;
+    width: 50%;
+    background: #fff;
+    padding: 0 2em;
+    text-align: left;
+    padding:50px;
+    position:relative;
+}
+.button_row {
+    width: 100%;
+    min-width: 300px;
+    float: none !important;
+    background: white;
+    text-align: right;
+    padding: 0;
+}
+input.exitModalBox {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: #fff;
+    padding: 4px 10px;
+    border: 1px solid gray;
+}
+div#PageSettings {
+    width: 50%;
+    margin: 5% auto;
+    background: #fff;
+    padding: 50px;
+    position:relative;
+    height: 75%;
+    overflow-y: scroll;
+}
+#pageSettingsButton {
+    float: right;
+    background: #095256 !important;
+    border: none;
+}
+#active-link-color[istransparent=yes],
+input[name=titleColor][istransparent=yes],
+.jsColor[istransparent=yes]{
+    background: url(../../public/icons/empty.gif) !important;
+    background-size: 100% auto !important;
+    border: 1px solid gray;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.jsColor[status=unset]{
+    background: none !important;
+    background-size: 75% 75% !important;
+    border: 1px solid #ccc !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.carousel-autoplay-options.closed{
+    display:none;
+}
+.carousel-autoplay-options.open{
+    display:block;
+}
+#theEditsProperties hr{
+    opacity:0 !important;
+    width:100%;
+    margin:3px;
+}
+#MensioProperties strong {
+    margin-top: 5px;
+    display:block;
+}
+.Mns_Tbl_Body_Table tr td{
+    padding:0;
+}
+input.wrongText:after {
+    content:"f";
+}
+input.wrongText {
+    border: 1px solid red;
+}
+.jsColor{
+    width:45% !important;
+    float:right;
+}
+.jsColorVal{
+    width:45% !important;
+    display:inline-block !important;
+}
+.mns-block [ordering]{
+}
+.mns-block[ordering="A-Z"] > div[ordering="A-Z"],
+.mns-block[ordering="Z-A"] > div[ordering="Z-A"],
+.mns-block[ordering="ID-A"] > div[ordering="ID-A"],
+.mns-block[ordering="ID-Z"] > div[ordering="ID-A"],
+.mns-block[ordering="MostProducts"] > div[ordering="MostProducts"],
+.mns-block[ordering="FewerProducts"] > div[ordering="FewerProducts"],
+.mns-block[ordering="Random"] > div[ordering="Random"]
+{
+    display:block !important;
+}
+.mns-block:not([ordering]) > div[ordering="A-Z"]{
+    display:block;
+}
+#edit-product .settings-row:nth-child(1) .settings-cell:nth-child(1),
+#edit-product input[name=title]{
+    display:none;
+}
+.mns-block.wait-please *{
+    display:none;
+}
+.mns-block.wait-please{
+    background: url(../icons/default/loading.gif)  center center !important;
+    background-repeat: no-repeat !important;
+    height:350px;
+}
+::-webkit-input-placeholder {
+  opacity:0.5;
+}
+::-moz-placeholder {
+  opacity:0.5;
+}
+:-ms-input-placeholder {
+  opacity:0.5;
+}
+:-moz-placeholder {
+  opacity:0.5;
+}
+.to-top-container{
+    display:none;
+}
+#theEdits .table-row{
+    display:table-row;
+}
+#theEdits .table-cell img{
+    height:100%;
+    width:auto;
+}
+#theEdits .table-cell{
+    display:table-cell;
+    padding-bottom:10px;
+    min-width:50px;
+    height:34px;
+}
+.settings-cell.flag{
+    background:none !important;
+}
+#edit-brand .settings-cell.flagPageTitle,
+#edit-brand .settings-cell.PageTitle,
+#edit-category .settings-cell.flagPageTitle,
+#edit-category .settings-cell.PageTitle,
+#edit-product .settings-cell.flagPageTitle,
+#edit-product .settings-cell.PageTitle
+{
+    display:none !important;
+}
+            html:not([class^="skin"]) #theSettings .mns-element-to-create,
+            html:not([class^="skin"]) #theEdits .backToEdits,
+            html:not([class^="skin"]) .current-blocks{
+                color: #5A5353;
+                border: 1px solid #916953;
+                border-top: 10px solid #916953;
+                background:#F1F1F1;
+            }
+            html:not([class^="skin"]) .MnsCustomSelect{
+                color: #5A5353;
+                border: 1px solid #916953;
+                background:#F1F1F1;
+            }
+            html:not([class^="skin"]) #theEdits label{
+                color: #5A5353;
+            }
+            html:not([class^="skin"]) .mns-html-content > .mns-block{
+                border: 3px dashed #AAAAAA;
+                border-top:none;
+            }
+            html:not([class^="skin"]) #theSettings .mns-element-to-create.disabled{
+                border: 1px solid #AAAAAA;    
+                border-top: 10px solid #AAAAAA;    
+            }
+            html:not([class^="skin"]) .mns-block .block-tool-bar{
+                background:#AAAAAA;
+            }
+            html:not([class^="skin"]) .mns-block.currentBlockEdit .block-tool-bar{
+                background:#960000;
+                opacity:1;
+            }
+            #currentBlocks{
+                color: #5A5353;
+                border-color:#5A5353;
+            }
+            html:not([class^="skin"]) #theEdits,
+            html:not([class^="skin"]) #theSettings,
+            html:not([class^="skin"]) .bottom-buttons{
+                background: #F1F1F1;
+                color: #5A5353;
+            }
+            html:not([class^="skin"]) #theEdits input[type=range]::-webkit-slider-thumb {
+                background: #AA0000;
+            }
+            html:not([class^="skin"]) #theEdits input[type=range]::-moz-range-thumb {
+              box-shadow: 1px 1px 1px #AA0000, 0px 0px 1px #AA0000;
+              border: 1px solid #AA0000;
+              background: #AA0000;
+            }
+            html:not([class^="skin"]) #theEdits input[type=range]::-ms-thumb {
+              box-shadow: 1px 1px 1px #AA0000, 0px 0px 1px #AA0000;
+              border: 1px solid #AA0000;
+              background: #AA0000;
+            }
+            html:not([class^="skin"]) #theEdits input[type=range]::-webkit-slider-runnable-track {
+              background: #444444;
+              border: 0.2px solid #444444;
+            }
+            html:not([class^="skin"]) .ps-scrollbar-y-rail{
+                background-color: #916953;
+                width: 5px;
+                height:100%;
+                right:0;
+                opacity:1;
+                display:block;
+            }
+            html:not([class^="skin"]) .ps-scrollbar-y{
+                width: 5px;
+                height:400px;
+                right:0;
+                opacity:1;
+                background-color: #AAAAAA;
+            }
+            html:not([class^="skin"]) #currentObjects h2,
+            html:not([class^="skin"]) #mnsEditsTitle,html:not([class^="skin"]) #theEdits #pg_function, html:not([class^="skin"]) #theEdits #page_title_div
+            {
+                color: #5A5353;
+                border: 1px solid #5A5353;
+            }
+            html:not([class^="skin"]) #currentBlocks{
+                border: 1px solid #5A5353;
+                color: #5A5353;
+            }
+            html:not([class^="skin"]) #mnsPageEditorLogo,
+            html:not([class^="skin"]) #theSettings .bottom-buttons{
+                border-right: 5px solid #916953;
+            }
+            html:not([class^="skin"]) #theEdits,
+            html:not([class^="skin"]) #theEdits .bottom-buttons{
+                border-left:5px solid #916953;
+            }
+            html:not([class^="skin"]) #settings .ps__rail-y{
+                background:#916953;
+                width:5px;
+                opacity:1;
+            }
+            html:not([class^="skin"]) .current-blocks:hover,
+            html:not([class^="skin"]) #mnsEditsTitle{
+                border:1px solid #960000;
+                border-top:10px solid #960000;
+            }
+            html:not([class^="skin"]) .clonedDIV{
+                background:#960000;
+                color:#fff;
+            }
+            html:not([class^="skin"]) .mns-html-content > div.mns-block:hover:not(.cusBorder),
+            html:not([class^="skin"]) .mns-html-content  div.mns-block.currentBlockEdit:not(.cusBorder){
+                border-left:3px dashed #960000;
+                border-right:3px dashed #960000;
+                border-bottom:3px dashed #960000;
+            }
+            html:not([class^="skin"]) #mnsEditsTitle{
+                color:#960000;
+            }
+            html:not([class^="skin"]) .MnsCustomSelect .category:hover{
+                background: #916953;
+                color: #F1F1F1;
+            }
+            html:not([class^="skin"]) #theEdits .select::after{
+                background: #916953;
+            }
+            html:not([class^="skin"]) #theEdits  .select:hover::after {
+                color: #F1F1F1;
+            }
+            html:not([class^="skin"]){
+                margin: 0;
+            }
+            #theEdits button.button.wp-color-result{
+                height: 25px !important;
+                width: 100% !important;
+                border-radius: 0 !important;
+                box-shadow: none !important;
+            }
+            #theEdits .my-color-field-wrapper{
+                position:relative;
+                height:20px;
+                background:#fff;
+            }
+            #theEdits .wp-picker-holder{
+                position: absolute;
+                right: 0;
+                width: 100%;
+                z-index: 9;
+                bottom: 25px;
+                top: 100%;
+            }
+            .undefinedColor{
+                background: #ececec !important;
+                color: #000 !important;
+                border: 1px solid #cecece;
+                font-weight: normal;
+            }
+            #theEdits .wp-picker-holder .iris-picker.iris-border{
+                width:100% !important;
+                height:205px !important;
+            }
+            #theEdits .wp-picker-holder .iris-picker.iris-border .iris-square{
+                width:110px !important;
+            }
+            #theEdits .iris-square-inner.iris-square-horiz{
+                width:100% !important;
+            }
+            #theEdits .iris-slider.iris-strip{
+                position:absolute !important;
+                top:0 !important;
+                right:0 !important;
+            }
+            #theEdits .wp-picker-input-wrap,
+            #theEdits .wp-picker-input-wrap,
+            #theEdits .iris-palette-container{
+                display:none !important;
+            }
+            #theEdits .button.wp-color-result{
+                padding:0;
+                width:100%;
+            }
+            #theEdits .iris-square {
+                height: 100% !important;
+            }
+            #thePage .wp-core-ui.wp-editor-wrap input[type=button]{
+                width:auto !important;
+            }
+            #thePage .mns-block.mns-html_block > .update{
+                color:#fff;
+                background:#095256;
+                padding:5px;
+                width: 100%;
+            }
+            #thePage .mns-block.mns-html_block .update,
+            #thePage .mns-block.mns-html_block .wp-editor-wrap{
+                display:none;
+            }
+            #thePage .mns-block.mns-html_block.currentBlockEdit .update,
+            #thePage .mns-block.mns-html_block.currentBlockEdit .wp-editor-wrap{
+                display:block;
+            }
+            #thePage .mns-block.mns-html_block .CustomHTML{
+                display:block;
+            }
+            #thePage .mns-block.mns-html_block.currentBlockEdit .CustomHTML{
+                display:none;
+            }
+            .modal-open .media-modal.wp-core-ui{
+                z-index: 999999;
+            }
+#MensioSettings form *{
+    font-size:15px;
+}
+#MensioSettings form .ui-accordion-content.ui-corner-bottom.ui-accordion-content-active:last-of-type{
+    padding-bottom:150px;
+}
+#MensioSettings form h2 {
+    font-weight: bold;
+    font-size:15px;
+}
+#MensioSettings form > div > div:not(.normalSettings){
+    border-collapse:separate;
+    border-spacing:0 10px;
+    width:100%;
+}
+#MensioSettings form > div > div.normalSettings{
+}
+#MensioSettings form > div > div.normalSettings > div > div:nth-child(1){
+    width:auto;
+}
+#MensioSettings form > div > div:not(.normalSettings) > div{
+    display:flex;
+    margin-top:5px;
+}
+#MensioSettings form div:not(.normalSettings) div.Input:not(:first-child){
+    margin:0;
+    margin-top:20px;
+}
+#MensioSettings form > div > div:not(.normalSettings) > div > div{
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+    margin:0;
+}
+#MensioSettings form > div > div:not(.normalSettings) > div > div:nth-child(1) {
+    width: 50px;
+}
+#MensioSettings form div.normalSettings h3{
+    margin:0;
+    font-weight:bold;
+}
+#MensioSettings form div.normalSettings > div{
+    margin-bottom: 10px;
+}
+#MensioSettings form > div > div.UsualSettings > div > div:nth-child(1){
+    width:auto;
+}
+#MensioSettings form div.UsualSettings div.ChooseColor{
+    margin-top:10px;
+}
+#MensioSettings form div.UsualSettings div.ChooseColor div.wp-picker-holder {
+    z-index: 5;
+}
+#MensioSettings form div.UsualSettings div.ChooseColor > div:nth-child(1){
+    width:200px;
+}
+#MensioSettings form > div > div:not(.normalSettings) > div.Input > div:nth-child(1) {
+    line-height: 35px;
+}
+div#MensioSettings input[type=text]{
+    color: #000;
+    border: 1px solid #a4a4a4 !important;
+    margin-right: 15px;
+    padding: 0;
+    padding-left: 10px;
+    line-height: 1rem;
+    height: 26.5px;
+    box-shadow: none;
+    margin: 0;
+    background: #fff;
+    font-size: 12px;
+}
+div#MensioSettings input[type=text]:focus{
+    border:1px solid #000;
+}
+div#MensioSettings input:placeholder{
+    color:#aeaeae;
+}
+#MensioSettings form img {
+    width:100%;
+}         
+#MensioSettings .Input div:nth-child(2){
+    display:none;
+}
+#MensioSettings .Input div:nth-child(1){
+    display: block;
+    width: 100% !important;
+    height: 23px;
+}
+#add-post-type-mensioslug.add-post-type-mensioslug{display:none !important;}
+body.toplevel_page_mns-html-edit #adminmenuback,
+body.toplevel_page_mns-html-edit div#adminmenumain,
+body.toplevel_page_mns-html-edit div#wpadminbar
+{display:none !important;}
+div#wpcontent{margin:0 !important;padding:0 !important;}
+.wp-picker-holder{
+    position:absolute;
+}
+.mns-block{display:block !important;}

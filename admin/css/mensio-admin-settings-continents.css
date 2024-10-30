@@ -1,0 +1,114 @@
+#wpcontent {
+  padding: 0 !important;
+}
+#DIV_Table {
+}
+#DIV_Edit {
+  display: none;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.Mns_Tbl_Body_Table_Column_Head,
+.Mns_Tbl_Body_Table_Column {
+  width: 12.5%;
+  padding-left: 10px !important;
+}
+.Mns_Language_Selector_Div {
+  min-width: 150px;
+  overflow: auto;
+  background: white;
+  display: table-cell;
+  margin-right: 1em;
+}
+.Mns_Language_Selector_Label {
+  display: inline-block;
+  width: 100%;
+  background: #204D74;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-weight: bolder;
+}
+.Mns_Language_Selector_Btn_Div {
+  width: 100%;
+  text-align: center;
+}
+.Mns_NoActiveLang {
+  display: inline-block;
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  text-align: center;
+  border: 1px solid #c1bdbd;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  background: red;
+  color: white;
+}
+.Mns_Language_Selector_Btn {
+  display: inline-block;
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  text-align: center;
+  border: 1px solid #c1bdbd;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  cursor: pointer;
+}
+.Mns_Language_Selector_Btn:hover {
+  background: #204D74;
+  color: white;
+}
+.Mns_Language_Fields_Div {
+  width: 100%;
+  min-width: 300px;
+  background: white;
+  display: table-cell;
+}
+.Mns_Language_Translations {
+  padding: 10px;
+}
+.Mns_Language_Translations label {
+  font-weight: bolder;
+}
+.Mns_Btn_selected {
+  background: #204D74;
+  color: white;
+}
+.button_row {
+  width: 100%;
+  min-width: 300px;
+  float: right;
+  background: white;
+  text-align: right;
+  padding: 1em;
+}
+.button_row .button {
+  background: #204D74;
+  color: white;
+}
+.button_row .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+#symbol option {
+  padding-left: 1em;
+}
+@media all and (max-width: 460px) {
+  .Mns_Language_Selector_Div {
+    width: 100%;
+    height: 160px;
+    overflow: auto;
+    background: white;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+  .Mns_Language_Fields_Div {
+    width: 100%;
+    display: inline-block;
+  }  
+}

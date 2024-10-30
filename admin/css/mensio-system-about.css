@@ -1,0 +1,38 @@
+#wpcontent { padding: 0 !important; }
+.AboutWrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 510px;
+  background: white;
+  color: black;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.logo-wrapper {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-wrapper {
+  padding: 30px;
+  padding-top: 0;
+  text-align: justify;
+}
+.text-wrapper ul {
+  width: 80%;
+  list-style-type: disc;
+  margin-left: 14px;
+  margin-top: -10px;
+}
+.sign-wrapper {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: right;
+}
+.sign-wrapper p {
+  margin: 0;
+}

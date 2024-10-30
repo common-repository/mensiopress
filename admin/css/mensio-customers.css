@@ -1,0 +1,335 @@
+
+#wpcontent {
+  padding: 0 !important;
+}
+.Mns_Tbl_Body_Table_Column_small {
+  width: 120px;
+}
+.ModalForm {
+  width: 80%;
+}
+#DIV_Table {
+}
+#DIV_Edit {
+  display: none;
+  min-width: 397px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.Mns_Tab_Wrapper {
+  max-width: 100%;
+  min-width: 397px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  background: white !important;
+}
+.tabs {
+  background: transparent;
+  border: none !important;
+}
+.ui-tabs {
+  border: none !important;
+}
+.ui-tabs i {
+  margin-right: 5px;
+}
+.ui-tabs-nav {
+  border: none;
+  padding: 0 !important;
+  border-bottom: 1px solid #D8D8D8;
+  background: white !important;
+}
+.Mns_Tab_Container {
+  padding: 0 !important;
+}
+.EditWrapper {
+  padding: 1em !important;
+}
+.Mns_Tab_Container label {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1em;
+  font-weight: bolder !important;
+}
+.GenInfoColDiv {
+  display: table-cell;
+  vertical-align: top;
+  width: 280px;
+  min-width: 280px;
+  padding: 1em;
+}
+#infoCard {
+  width: 100%;
+  padding: 0;
+}
+#infoTbl {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+.lblcol {
+  font-weight: bold;
+  width: 95px;
+  padding: 5px;
+  background: #EDEDED;
+}
+.lblcol span {
+  float: right;
+}
+.infocol {
+  padding: 5px;
+}
+.GenEditColDiv {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+.PassDiv {
+  width: 100%;
+}
+.MDLPswdAlerts {
+  width: 100%;
+  padding: 5px 2px;
+  margin-bottom: 1em;
+  text-align: center;
+  display: none;
+}
+.MDLPswdAlerts span {
+  display: inline-block;
+  padding: 5px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+#MDLPswdAlert_Week {
+  border: 1px solid red;
+}
+#MDLPswdAlert_Week span {
+  background: #f9b6b6;
+}
+#MDLPswdAlert_Good {
+  border: 1px solid green;
+}
+#MDLPswdAlert_Good span {
+  background: #8aef7c;
+}
+#MnsModal .button_row {
+  padding: 0;
+}
+#MnsModal .button_row button {
+  margin-left: 10px;
+}
+#MultiAcc {
+  width: 100%;
+}
+#AddEditDiv {
+  width: 100%;
+  min-width: 300px;
+  padding: 1em !important;
+}
+.AddBtnDiv {
+  width: 100%;
+  padding: 0.5em !important;
+}
+.AddBtnDiv .button {
+  background: #204D74;
+  width: 30px;
+  color: white;
+  border: none;
+  box-shadow: none;
+  float: right;
+}
+.AddBtnDiv .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+.AddBtnDiv .button:focus {
+  background-color: #2B6EA5;
+  color: white;
+}
+.BtnEditAdd {
+  width: 150px;
+  float: left;
+}
+.BtnListDiv {
+  width: 100%;
+  height: 500px;
+  overflow: auto;
+  padding: 1em !important;
+}
+.InfoData {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1em ;
+  padding: 3px 5px;
+}
+#TblAddress .ESBtns i {
+  display: block;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+#TblContact .ESBtns i {
+  display: block;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+.CustInfoType {
+  width: 100px;
+}
+.CustContact {
+  width: 100px;
+}
+.Modal_Wrapper .button {
+  background: #204D74;
+  color: white;
+  float: right;
+  border: none;
+  box-shadow: none;
+}
+.Modal_Wrapper .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+  cursor: pointer;
+}
+#MultiWrap {
+  padding: 10px;
+}
+#HistoryWrapper {
+  padding: 10px;
+}
+.OrderData {
+  display: inline-block;
+  width: 30%;
+  float: right;
+}
+.OrderDetails {
+  padding: 10px !important;
+  height: 300px;
+  overflow: auto;
+}
+.InfoTable {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+.InfoTable thead {
+  text-align: left;
+  background: #095256;
+  color: white;
+}
+.InfoTable thead th {
+  padding: 5px 10px;
+}
+.InfoTable tbody td {
+  padding: 5px 10px;
+}
+.BtnCol {
+  width: 50px;
+}
+.ESBtnsDivs {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+}
+.ESBtns {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 !important;
+  text-align: center;
+  line-height: 20px;
+  background: #2c7002;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.BTN_View i {
+  margin-left: 3px;
+}
+.BTN_Status i {
+  margin-left: 4px;
+}
+.ESBtns:hover {
+  background: #399b00;
+  color: white;
+}
+.ESBtns:focus {
+  background: #399b00;
+  color: white;
+}
+.ProductTable {
+  margin-top: 5px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.ProductTable th {
+  background: #fafafa;
+  background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:    -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:         linear-gradient(top, #fafafa 0%, #eee 100%);
+  padding: 5px;
+  text-align: left;
+}
+.ProductTable tbody td {
+  padding: 5px;
+}
+.EvenTblLine {
+  background: #fff;
+}
+.OddTblLine {
+  background: #f4f4f4;
+}
+.ActStat {
+  text-align: center;
+}
+.ActStat .fa-times {
+  color: red;
+}
+.AddrDiv {
+  width: 48%;
+  padding: 10px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 2em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.3), -2px 2px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 2px 0 rgba(0,0,0,0.3), -2px 2px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.3), -2px 2px 1px rgba(0,0,0,0.2);
+}
+.PrdDiv {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 1em;
+}
+@media all and (max-width: 1185px) {
+  .Mns_Tbl_Footer_Pagination_Div {
+    margin-top: 1em;
+  }
+}
+@media all and (max-width: 782px) {
+  .PasBtnsDiv {
+    width: 26px;
+    height: 28px;
+    margin-top: -3.2em;
+  }
+  .PasBtnsDiv .button i {
+    margin-top: 7px;
+  }
+}
+@media all and (max-width: 681px) {
+  .Mns_Bulk_Selector_Div {
+    width: 100%;
+  }
+  .Extra_Selector {
+    margin: 0;
+    margin-right: 1em;
+  }
+}
+@media all and (max-width: 500px) {
+  .AddressCtrlDiv {
+    display: inline-block;
+    width: 100%;
+  }
+}

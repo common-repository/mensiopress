@@ -1,0 +1,43 @@
+#wpcontent {
+  padding: 0 !important;
+}
+#Countries_currency {
+  width: 200px;
+}
+#DIV_Table {
+}
+.Mns_Tbl_Body_Table_Column_Head,
+.Mns_Tbl_Body_Table_Column {
+  padding-left: 0 !important;
+}
+#DIV_Edit {
+  display: none;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.Mns_Tab_Wrapper {
+  background: white !important;
+}
+.tabs {
+  background: transparent;
+  border: none !important;
+}
+.ui-tabs {
+  border: none !important;
+}
+.ui-tabs-nav {
+  border: none;
+  padding: 0 !important;
+  border-bottom: 1px solid #D8D8D8;
+  background: white !important;
+}
+.Modal_Wrapper .button {
+  background: #204D74;
+  color: white;
+  float: right;
+}
+.Modal_Wrapper .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,1624 @@
+
+#wpcontent {
+  padding: 0 !important;
+}
+.Mns_Tbl_Body_Table_Img_Col_Head,
+.Mns_Tbl_Body_Table_Img_Col {
+  padding-left: 0 !important;
+  width: 50px !important;
+}
+.Mns_Tbl_Fld_Img {
+  float: left !important;
+}
+.Mns_Tbl_Body_Table_Ctrl_Col {
+  padding: 0 !important;
+  padding-top: 10px !important;
+  padding-right: 5px !important;
+}
+.Mns_Tbl_Body_Table_Ctrl_Col .Mns_Tbl_Body_Table_Fld_Check {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Mns_Tbl_Fld_Img img {
+  width: 100% !important;
+  height: 100% !important;
+}
+.tabs {
+  background: transparent;
+  border: none !important;
+}
+.ui-tabs {
+  border: none !important;
+}
+.ui-tabs-nav {
+  border: none;
+  padding: 0 !important;
+  border-bottom: 1px solid #D8D8D8;
+  background: white !important;
+}
+#Products_visibility {
+  text-align: center;
+}
+.FLD_ProNotes {
+  background: green !important;
+}
+.mdl-form-control {
+  width: 100%;
+  margin-bottom: 1em;
+}
+#Products_code {
+  width: 160px;
+}
+.Mns_Tbl_Body_Table_Column_Head_small {
+  padding: 0 !important;
+}
+#Products_visibility_Header,
+#Products_visibility_Footer {
+  width: 100%;
+  text-align: center;
+}
+#DIV_Table {
+}
+.Mns_Tbl_Body_Table_Column_small {
+  width: 90px;
+}
+#DIV_Edit {
+  display: none;
+  min-width: 397px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);  
+}
+.ex-form-control {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.DivSep {
+  width: 100%;
+  height: 3em;
+}
+.Mns_Edit_Wrapper {
+  max-width: 100%;
+  min-width: 397px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+}
+.ProductTab {
+  padding: 10px;
+}
+.ProductTab .fa {
+ margin-right: 5px; 
+}
+.DnldAlertWrapper {
+  display: inline-block;
+}
+.NoDnldsAlert {
+  display: inline-block;
+  width: 22px;
+  line-height: 22px;
+  background: red;
+  color: yellow;
+  text-align: center;
+  padding-top: 1px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.NoDnldsAlert i {
+  font-size: 16px;
+}
+.DnldAlertWrapper .NoDnldsAlert i {
+  margin-left: 3px;
+}
+.InputDivWrapper {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 1em;
+}
+.BtnDivWrapper {
+  display: table-cell;
+  padding: 0 !important;
+  min-width: 27px;
+  vertical-align: top;
+}
+.BtnSwMdl {
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  margin: 0 !important;
+  text-align: center;
+  line-height: 27px;
+  background: #204D74;
+  color: white;
+  cursor: pointer;
+}
+.BtnSwMdl i {
+  margin-left: 5px;
+}
+.BtnSwMdl:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+.BtnSwMdl:focus {
+  background-color: #2B6EA5;
+  color: white;
+}
+.InputDiv {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0;
+  width: 100%;
+  min-width: 300px;
+}
+.InputDiv .form-control {
+  margin: 0!important;
+  height: 27px;
+}
+.ProdExtraWrapper {
+  width: 100%;
+}
+.ProdSubSelection {
+  width: 20%;
+  float: left;
+}
+.ExtraSelectionsDiv {
+  float: right;
+}
+.ESBtnsDivs {
+  width: 30px;
+  height: 20px;
+  float: left;
+}
+.ESBtns {
+  width: 30px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 !important;
+  text-align: center;
+  line-height: 20px;
+  background: #204D74;
+  color: white;
+  cursor: pointer;
+  padding-left: 5px;
+}
+.ESBtns:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+.ESBtns:focus {
+  background-color: #2B6EA5;
+  color: white;
+}
+.SelectedBtn {
+  background-color: #204D74;
+  color: white;
+}
+.Modal_Wrapper .ESBtns {
+  padding-left: 2px;
+}
+#CodeMsg {
+  display: none;
+  width: 100%;
+  border: 1px solid rgba(255,0,0,.1);
+  padding: 2px 10px;
+  font-weight: bold;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(255,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(255,0,0,.1);
+  margin-bottom: 1em;
+}
+.MainImageDiv {
+  min-width: 100px;
+  display: table-cell;
+  vertical-align: top;
+}
+.MainImageDiv .ProdImgWrapper {
+}
+.ImageListDiv {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 2em;
+}
+.ImageList {
+  height: 400px;
+  overflow: auto;
+}
+.ProdImgWrapper {
+  position: relative;  
+  width: 150px;
+  height: 150px;
+  margin-right: 1em;
+  margin-top: 1em;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+}
+.ProdImgWrapper img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.ImgLstOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #204d74;
+}
+.SlctImg:hover .ImgLstOverlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(14%, -50%);
+  -ms-transform: translate(14%, -50%);
+  opacity: 1;
+}
+.ImgBtn {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  background: #c1bdbd;
+  box-shadow: none !important;
+  border: none !important;
+  cursor: pointer;
+}
+.ImgBtn:hover {
+  background: white;
+  color: black;
+}
+.BDWrapper {
+  width: 100%;
+}
+.BDInput {
+  display: table-cell;
+  width: 100%;
+  padding-right: 10px;
+  vertical-align: top;
+}
+.BDIImages {
+  min-width: 200px;
+  width: 100%;
+}
+.CatBtnDiv {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.CategoryList {
+  display: table-cell;
+  min-width: 200px;
+  padding-top: 0 !important;
+  padding-right: 10px !important;
+  vertical-align: top;
+}
+.CategoryListWrapper {
+  width: 100%;
+  height: 320px;
+  overflow: auto;
+}
+.CategorButtonWrapper {
+  padding-top: 5px;
+  width: 100%;
+}
+.AttrLbl {
+  display: block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.CatSlctBtns {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.5em;
+  margin-top: 2px;
+  text-align: center;
+  border: 1px solid #c1bdbd;
+  cursor: pointer;
+}
+.CatBtnName {
+  display: block;
+  width: 95%;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:    -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:         linear-gradient(top, #fafafa 0%, #eee 100%);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ActiveCat {
+  background: #095256;
+  color: white;
+}
+.ActiveCat i {
+  color: white;
+}
+#AttributeSelectorList {
+  display: table-cell;
+  min-width: 200px;
+  padding: 0 !important;
+  vertical-align: top;
+  border-right: 1px solid #f1f1f1;
+}
+#AttrBtnWrapper {
+  width: 100%;
+  height: 320px;
+  overflow: auto;
+}
+.WrapperEmpty {
+  display: block;
+  width: 90%;
+  line-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #F3F3F3;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #ccc;;
+  font-weight: bold;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,255,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,255,.1);
+}
+#AttrBtnWrapper .WrapperEmpty {
+  margin-top: 21%;
+}
+#CatAttrValueListWrapper .WrapperEmpty {
+  margin-top: 17%;
+}
+.ColorImgDspl {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 5px;
+}
+.ColorImgDspl img {
+  width: 100%;
+  height: 100%;
+}
+.ColorImgDspl span {
+  line-height: 50px;
+}
+.CategoryAttribute,
+.VarCategoryAttribute {
+  display: block;
+  width: 95%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  text-align: center;
+  border: 1px solid #c1bdbd;
+  cursor: pointer;
+  background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:    -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:         linear-gradient(top, #fafafa 0%, #eee 100%);
+}
+.CategoryAttribute:hover {
+  background: -webkit-linear-gradient(top, #eee 0%, #fafafa 100%);
+  background:    -moz-linear-gradient(top, #eee 0%, #fafafa 100%);
+  background:         linear-gradient(top, #eee 0%, #fafafa 100%);
+}
+.AttrSelected {
+  background: -webkit-linear-gradient(top, #eee 0%, #fafafa 100%);
+  background:    -moz-linear-gradient(top, #eee 0%, #fafafa 100%);
+  background:         linear-gradient(top, #eee 0%, #fafafa 100%);
+  box-shadow: inset 0px 0px 2px green;
+}
+#AttrValSearcherDiv,
+#VarAttrValSearcherDiv {
+  display: none;
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+#CatAttrValueList {
+  display: table-cell;
+  min-width: 250px;
+  padding: 0 !important;
+  vertical-align: top;
+  border-right: 1px solid #f1f1f1;
+}
+#ValueTableDisplay {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 10px;
+}
+#CatAttrValueListWrapper {
+  width: 100%;
+  height: 315px;
+  overflow: auto;
+  padding-left: 10px;
+}
+.RgnTypeBtn {
+  display: inline-block;
+  width: 98%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border: 1px solid #c1bdbd;
+  cursor: pointer;
+  background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:    -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:         linear-gradient(top, #fafafa 0%, #eee 100%);
+}
+.TxtBtn {
+  padding: 5px;
+}
+.ClrBtn {
+}
+.ColorDspl {
+  display: block;
+  width: 20px;
+  height: 55px;
+  float: left;
+  margin-right: 5px;
+}
+.ColorData {
+  float: left;
+  width: 125px;
+}
+.RgnTypeBtn:hover {
+  background: -webkit-linear-gradient(top, #eee 0%, #fafafa 100%);
+  background:    -moz-linear-gradient(top, #eee 0%, #fafafa 100%);
+  background:         linear-gradient(top, #eee 0%, #fafafa 100%);
+}
+.RgnTypeBtnSelected {
+  background: -webkit-linear-gradient(top, #eee 0%, #fafafa 100%);
+  background:    -moz-linear-gradient(top, #eee 0%, #fafafa 100%);
+  background:         linear-gradient(top, #eee 0%, #fafafa 100%);
+  box-shadow: inset 0px 0px 2px green;
+}
+.AttributeList {
+  display: table-cell;
+  width: 100%;
+  padding: 0 !important;
+  vertical-align: top;
+  border-left: 1px solid #f1f1f1;
+}
+.AttributeValueList {
+}
+.ValueSelectList {
+  height: 100px;
+  overflow: auto;
+}
+#TBL_AttributeValues {
+  width: 100%;
+}
+#TBL_AttributeValues th {
+  background-color: #095256;
+  color: white;
+  font-weight: bold;
+  padding: 7px;
+}
+.VisCol {
+  text-align: center;
+  width: 30px;
+}
+.AttrCol {
+  width: 150px;
+}
+.thempty {
+  background-color: transparent !important;
+}
+.RowClrDiv {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+}
+.RowImgDiv {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+.RowImgDiv img {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.InfoLangSelectDiv {
+  display: table-cell;
+  padding: 0 !important;
+  min-width: 50px;
+  vertical-align: top;
+}
+.InfoLangWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  margin-top: 18px;
+  height: 460px;  
+  overflow: auto;
+  text-align: center;
+}
+.TranslButtons {
+  width: 35px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  cursor: pointer;
+}
+.TranslButtons img {
+  margin-top: 1px;
+  width: 100%;
+}
+.TranslButtons:hover {
+  background: #095256;
+}
+.TranslSelected {
+  background: #095256;
+}
+.InfoLangEditDiv {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0;
+  padding-left: 10px;
+  width: 100%;
+  min-width: 300px;
+}
+.infoextra {
+  width: 100%;
+  margin-top: 2em;
+}
+.InfoAdvantages {
+  width: 100%;
+}
+.InfoTags {
+  width: 100%;
+  margin-top: 2em;
+}
+#FLD_ProNotes_ifr {
+  height: 250px !important;
+}
+.AdvLangWrapper {
+  display: table-cell;
+  vertical-align: top;
+  width: 80px;
+  height: 460px;  
+  overflow: auto;
+  text-align: center;
+}
+.InfoExtraListDiv {
+  display: table-cell;
+  vertical-align: top;
+  height: 250px;
+  overflow: auto;
+  width: 109%;
+  padding-left: 10px;
+}
+.ProductSubTable {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+.ProductSubTable thead {
+  text-align: left;
+  background: #095256;
+  color: white;
+}
+.ProductSubTable thead th {
+  line-height: 25px;
+  padding: 5px;
+}
+.ProductSubTable tbody td {
+  border-bottom: 1px solid #cccccc;
+}
+.ProductSubTable tbody td {
+  line-height: 25px;
+  padding: 5px;
+}
+.ProductSubTable .SubTblSmallCol {
+  width: 150px;
+}
+.SubTblBtnCol {
+  width: 65px;
+  padding: 0;
+  text-align: right;
+}
+.SubTblBtnCol .RgTpBtns {
+  display: block;
+  float: right;
+  background: none;
+  color: black;
+}
+.BtnFileMng {
+  display: inline-block;
+  width: 20px;
+  margin-left: 1px;
+  cursor: pointer;
+}
+.BtnFileMng i {
+  padding-left: 5px; 
+}
+.SubTblSmallCol {
+  width: 100px;
+}
+.BtnEditFile {
+  background: #204D74;
+  color: white;
+}
+.BtnRemoveFile {
+  background: #c91414;
+  color: white;
+}
+.ModalProductTypeSelector {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.ModalBtnCol {
+  float: left;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.ModalBtnCol button {
+  width: 100%;
+  margin-bottom: 1em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+.ModalListCol {
+  display: none;
+  float: left;
+  width: 65%;
+}
+.ModalListRslts {
+  width: 100%;
+  height: 250px;
+  overflow: auto;
+}
+.VarProdSelector {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+.VarProdSelector:hover {
+  background: #399B00;
+  color: white;
+}
+.VarProdSelectorImage {
+  height: 40px;
+  float: left;
+}
+.VarProdSelectorImage img {
+  height: 100%;
+}
+.VarProdSelectorName {
+  float: left;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.StatusInputDiv {
+  width: 100%;
+}
+.StatusInput {
+  width: 95%;
+  float: left;
+}
+.StatusBtn {
+  width: 27px;
+  height: 27px;
+  float: left;
+}
+.AddStatusBtn {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  margin-top: 1px;
+  text-align: center;
+  line-height: 27px;
+  background: #2c7002;
+  color: white;
+  cursor: pointer;
+}
+.AddStatusBtn:hover {
+  background-color: #2c7002;
+  color: white;
+}
+.AddStatusBtn:focus {
+  background-color: #2c7002;
+  color: white;
+}
+.StatusList {
+  width: 100%;
+  height: 350px;
+  overflow: auto;
+}
+.StockStatusRemoveBtn,
+.MdlStatusRemoveBtn {
+  padding: 0;
+  width: 20px;
+  line-height: 18px;
+  margin-right: 5px;
+  background: #c91414;
+  color: white;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.StockStatusRemoveBtn i,
+.MdlStatusRemoveBtn i {
+  margin: 0;
+}
+.StockStatusEditBtn,
+.MdlStatusEditBtn {
+  padding: 0;
+  width: 20px;
+  line-height: 18px;
+  margin-right: 5px;
+  background: #2c7002;
+  color: white;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.StockStatusEditBtn i,
+.MdlStatusEditBtn i {
+  margin: 0;
+}
+.StockStatusTransBtn,
+.MdlStatusTransBtn {
+  padding: 0;
+  width: 20px;
+  line-height: 18px;
+  background: #2B6EA5;
+  color: white;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.StockStatusTransBtn i,
+.MdlStatusTransBtn i {
+  margin: 0;
+  margin-right: 5px;
+}
+.ModalStatusCtrlCol {
+  width: 90px;
+}
+.ModalStatusCtrlColBig {
+  width: 110px;
+  padding: 0 !important;
+  text-align: center;
+}
+.StockCtrlWrap {
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.StatusHeaderCol {
+  display: block;
+  width: 50%;
+  float: left;
+  padding: 5px;
+  line-height: 25px;
+  margin: 0;
+  color: white;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+.StatusHeaderCol fa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.StatusHeaderCol:hover {
+  background-color: #2B6EA5;
+}
+.ModalStatusIcon {
+  width: 25px;
+}
+.ModalStatusIcon img {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+.Modal_Wrapper .button {
+  background: #204D74;
+  color: white;
+  float: right;
+  border: none;
+  box-shadow: none;
+}
+.Modal_Wrapper .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+  cursor: pointer;
+}
+.TagList {
+  width: 100%;
+  padding: 10px;
+}
+.TagDiv {
+  width: 100%;
+  border: 1px solid #c1bdbd;
+  margin-bottom: 1em;
+}
+.TagText {
+  max-width: 90%;
+  padding: 5px;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.TagBtns {
+  padding: 5px;
+  float: right;
+}
+.RgTpBtns {
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: #c91414;
+  color: white;
+  padding-left: 4px;
+  padding-top: 1px;
+}
+.RgTpBtnsGreen {
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: #095256;
+  color: white;
+  padding-left: 4px;
+  padding-top: 1px;
+}
+.RgTpBtnsBL {
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: #204d74;
+  color: white;
+  padding-left: 4px;
+  padding-top: 1px;
+}
+.TagBtns .Brcbtns {
+  float: right;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.CatLstBtn {
+  width: 100%;
+}
+.CatName {
+  display: inline-block;
+  float: left;
+  line-height: 20px;
+  width: 70%;
+}
+.CatBtn {
+  width: 25px;
+  float: right;
+}
+.CatBtn .RgTpBtns {
+  background: transparent !important;
+  color: black !important;
+  float: right;
+}
+.CatBtn .RgTpBtns:hover {
+  color: green !important;
+}
+.CatBtn .RMCategory i {
+  margin-left: 2px;
+}
+#InfoTagsList {
+  width: 100%;
+  max-height: 450px;
+  overflow: auto;
+}
+#FLD_TagText {
+  width: 100%;
+  height: 350px;
+  resize: none;
+}
+#BTN_ModalClearTags {
+  margin-right: 1em;
+}
+#ProductBarcodesList .RgTpBtns {
+  padding-top: 0;
+}
+#BTN_AddNewBCType i,
+#BTN_SaveBCType i {
+  margin-left: 0;
+}
+#BTN_AddNewBCType,
+#BTN_SaveBCType {
+  margin-top: 1px !important;
+}
+#MDL_BarcodeTypesDIV {
+  display: none;
+}
+#MDL_BCTypeList {
+  width: 100%;
+  height: 230px;
+  overflow: auto;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+#MDL_BCTypeList .BCTypeDelete {
+  padding-top: 0;
+}
+.ProductBundleTable {
+  width: 100%;
+}
+.BndlImgCol {
+  width: 50px;
+}
+.BndlImgCol img {
+  width: 100%;
+}
+.BndlNmCol {
+}
+.BndlSmlCol {
+  width: 80px !important;
+}
+.BndlCtrlBtnCol {
+  padding: 0 !important;
+  width: 80px !important;
+}
+.BndlCtrlBtn {
+  display: block;
+  float: right;
+  width: 22px;
+  line-height: 22px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 5px;
+}
+.BndlCtrlBtn i {
+  margin-left: 5px;
+}
+.BTN_BndlEdit {
+  background: #204D74;
+  color: white;
+}
+.BTN_BndlDel {
+  background: #c91414;
+  color: white;
+}
+#MDL_SearchResults {
+  margin-top: 10px;
+  width: 100%;
+  height: 350px;
+  overflow: auto;
+}
+.BndlPrdSelector {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  margin-bottom: 1em;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);  
+}
+.BndlPrdSelector:hover {
+  background: green;
+  color: white;
+}
+.BndlPrdSelectorImg {
+  width: 50px;
+  float: left;
+  height: 50px;
+}
+.BndlPrdSelectorImg img {
+  height: 100%;
+  width: 100%;
+}
+.BndlPrdSelectorName {
+  float: left;
+  line-height: 50px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+#MDL_AmountDiv {
+  width: 100%;
+  display: none;
+}
+.dd-list {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dd-list .dd-list {
+  padding-left: 30px;
+}
+.dd-item,
+.dd-empty,
+.dd-placeholder {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.dd-handle {
+  display: block;
+  height: 30px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:    -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:         linear-gradient(top, #fafafa 0%, #eee 100%);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.dd-handle:hover {
+  color: #2ea8e5;
+  background: #fff;
+}
+.disabled {
+  color: #2ea8e5;
+  background: #fff;
+}
+.dd-item > button {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 25px;
+  height: 20px;
+  margin: 5px 0;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.dd-item > button:before {
+  content: '+';
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-indent: 0;
+}
+.dd-item > button[data-action="collapse"]:before {
+  content: '-';
+}
+.dd-placeholder,
+.dd-empty {
+  margin: 5px 0;
+  padding: 0;
+  min-height: 30px;
+  background: #f2fbff;
+  border: 1px dashed #b6bcbf;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.dd-empty {
+  border: 1px dashed #bbb;
+  min-height: 100px;
+  background-color: #e5e5e5;
+  background-image: -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff),
+                    -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+  background-image:    -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff),
+                       -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+  background-image:         linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff),
+                            linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+.dd-dragel {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+}
+.dd-dragel > .dd-item .dd-handle {
+  margin-top: 0;
+}
+.dd-dragel .dd-handle {
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.Srchcontrol {
+  width: 100%;
+  margin-bottom: 1em;
+}
+#ProductVariationWrap {
+  width: 100%;
+  height: 450px;
+  overflow: auto;
+}
+.PrdVarElement {
+  width: 99%;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:    -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:         linear-gradient(top, #fafafa 0%, #eee 100%);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.VarElColor {
+  width: 5px;
+  height: 30px;
+  float: left;
+}
+.VarElActive {
+  background: green;
+}
+.VarElInactive {
+  background: red;
+}
+.VarElImg {
+  width: 30px;
+  float: left;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.VarElImg img {
+  width: 20px;
+  height: 20px;
+}
+.VarElCode {
+  width: 80%;
+  float: left;
+  padding: 5px 10px;
+}
+.VarElBtns {
+  width: 120px;
+  padding: 5px;
+  float: right;
+}
+.VarElBtns .RgTpBtns {
+ float: right !important;
+ margin-left: 5px;
+}
+.VarSetMain,
+.VarEdit,
+.VarTrans {
+  background: #204D74;
+}
+.VarElCodeSelection {
+  cursor: pointer;
+}
+.VarElCodeSelection:hover {
+  color: green;
+}
+.ProductVariationInfo {
+  display: none;
+  width: 60%;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  background: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 9999;
+  position: absolute;
+  top: 10em;
+  left: 10em;
+  font-weight: normal !important;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.ProductVariationInfo h3 {
+  margin-left: 1em;
+}
+.VarElInfoTbl {
+  width: 100%;
+  border-collapse: collapse;
+}
+.VarElInfoTbl td {
+  padding-bottom: 10px;
+}
+.VarLblCol {
+  width: 80px !important;
+  font-weight: bold;
+  padding-right: 5px;
+}
+.VarPrdDfltVals {
+  padding: 10px;
+  width: 30%;
+  height: 320px;
+  float: left;
+}
+.VarPrdDfltAttrs {
+  padding: 10px;
+  width: 70%;
+  float: right;
+  height: 320px;
+  overflow: auto;
+}
+#TBL_VarAttributeValues {
+  width: 100%;
+}
+#TBL_VarAttributeValues th {
+  background-color: #095256;
+  color: white;
+  font-weight: bold;
+  padding: 7px;
+}
+.MdlFormWraper {
+  width: 100%;
+}
+.VarPrdTab {
+  width: 100%;
+  max-height: 450px;
+}
+#MDLImagesDiv {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+#MDL_VarCodeMsg {
+  display: none;
+  width: 100%;
+  border: 1px solid rgba(255,0,0,.1);
+  padding: 2px 10px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(255,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(255,0,0,.1);
+}
+#BTN_VariationSave {
+  background: #095256;
+  color: white;
+}
+#BTN_VariationSave:hover,
+#BTN_VariationSave:focus {
+  background-color: #399b00;
+  color: white;
+}
+.Modal_Wrapper .ProdImgWrapper {
+  padding: 0;
+}
+.Modal_Wrapper .text {
+  width: 80%;
+}
+.VarMainImg {
+  border: 5px solid #204d74;
+}
+#MDLAttrDiv {
+  padding: 0 !important;
+  padding-top: 10px !important;
+}
+.VarAttrSelectDiv {
+  width: 60%;
+  float: left;
+  height: 440px;
+  overflow: auto;
+}
+.MDLCtrlDivs {
+  width: 50%;
+  height: 440px;
+}
+#VarAttrSelDiv {
+  float: left;
+}
+#VarAttrSelDivWrapper {
+  width: 100%;
+  height: 370px;
+  overflow: auto;
+}
+#VarAttrValSelDiv {
+  float: right;
+}
+#VarAttrValSelDiv #VarAttrValSelWrapper {
+  display: block;
+  height: 350px;
+  overflow: auto;
+}
+.VarValueDiv {
+  width: 40%;
+  float: right;
+  height: 440px;
+  overflow: auto;
+}
+#MDL_SearchDiv{
+  position: relative;
+}
+.InfoTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.InfoTable thead {
+  text-align: left;
+  background: #095256;
+  color: white;
+}
+.InfoTable thead th {
+  padding: 5px 10px;
+}
+.InfoTable tbody td {
+  padding: 5px 10px;
+}
+.ImgCol,
+.BtnCol {
+  width: 50px;
+}
+.ImgCol img {
+  width: 100%;
+}
+.BundleBtns {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: #095256;
+  color: white;
+  padding-left: 4px;
+  padding-top: 1px;
+}
+.BundleBtns i {
+  display: block;
+  margin-top: 2px;
+  margin-left: -4px;
+}
+#VariationListDiv {
+  display: none;
+  width: 80%;
+  height: 310px;
+  position: absolute;
+  top: 5em;
+  right: 2em;
+  background: white;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(255,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(255,0,0,.1);
+}
+#VariationList {
+  width: 100%;
+  height: 80%;
+  overflow: auto;
+  padding: 10px;
+}
+.RelProdCode {
+  margin-right: 5px;
+  font-weight: bold;
+}
+.DIV_Cur_Img {
+  width: 100px;
+  text-align: center;
+}
+.Mns_Img_Container {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.Mns_Img_Container img {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Mns_Img_Container img[src=""] {
+  display: none;
+}
+.Mns_Img_Btn {
+  width: 50%;
+  float: left;
+}
+.ColorWraper {
+  width: 200px;
+  float: left;
+}
+.iris-picker,
+.iris-mozilla,
+.iris-border {
+  position: absolute;
+  display: block;
+  z-index: 9999;
+  width: 200px !important;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.iris-slider {
+  width: 15px !important;
+  height: 98% !important;
+}
+.iris-strip {
+  width: 15px !important;
+  height: 98% !important;
+}
+.StatusColorBox {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+.IconWrapper {
+  float: left;
+  margin-right: 1em;
+}
+#StatusTransModal {
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  top: 16%;
+  left: 20%;
+}
+.SwitchArea {
+  width: 100%;
+  overflow: hidden;
+}
+.SwitchAreaCtrl {
+  margin-bottom: 5px;
+}
+.StatusTag {
+  width: 100%;
+  display: block;
+}
+#GenericStatusTab,
+#GenericVariationStatusTab {
+}
+#StockStatusTab,
+#VariationStockStatusTab {
+  height: 250px;
+  display: none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 51px;
+  height: 17px;
+  margin-left: 1em;
+  border: 1px solid #ccc;
+}
+.switch input {display:none;}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 25px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+#Tbl_StockStatus,
+#Tbl_VarStockStatus {
+  margin: 0 !important;
+}
+#Tbl_StockStatus .fa,
+#Tbl_VarStockStatus .fa {
+  margin-right: 0 !important;
+}
+.Stocklbl {
+  display: none;
+  font-style: italic;
+}
+#FLD_Color {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 50px !important;
+  line-height: 40px !important;
+}
+.StStatusBtn .button {
+  margin-left: 5px;
+}
+.StStatusBtn .BtnGreen {
+  background: #095256;
+  color: white;
+}
+.StStatusBtn .BtnGreen:hover {
+  background-color: #399b00;
+  color: white;
+}
+.StStatusBtn .BtnGreen:focus {
+  background-color: #399b00;
+  color: white;
+}
+.infotext {
+  font-style: italic;
+  font-size: 0.9em;
+  display: block;
+  margin-top: -12px;
+}
+.StockStatusSelection {
+  display: block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  line-height: 25px;
+  cursor: pointer;
+}
+.StockStatusSelection:hover {
+  background: green;
+  color: white;
+}
+.PrdImg {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 5px;
+}
+.PrdImg img {
+  width: 100%;
+  height: 100%;
+}
+.PrdctCode {
+  font-weight: bold;
+  margin-right: 5px;
+}

@@ -1,0 +1,74 @@
+#wpcontent {
+  padding: 0 !important;
+}
+#DIV_Table {
+}
+#DIV_Edit {
+  display: none;
+}
+.Mns_Tbl_Fld_Img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-left: -1em;
+}
+.Mns_Tab_Wrapper {
+  width: inherit;
+  max-width: 95%;
+  min-width: 365px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  background: white !important;
+}
+.tabs {
+  background: transparent;
+  border: none !important;
+}
+.ui-tabs {
+  border: none !important;
+}
+.ui-tabs-nav {
+  border: none;
+  padding: 0 !important;
+  border-bottom: 1px solid #D8D8D8;
+  background: white !important;
+}
+.Mns_Tab_Container {
+}
+.Mns_Tab_Container label {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1em;
+  font-weight: bolder !important;
+}
+.DIV_Cur_Img {
+  width: 100px;
+  text-align: center;
+}
+.Mns_Img_Container {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.Mns_Img_Container img {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Mns_Img_Btn {
+  width: 50%;
+  float: left;
+}
+.ModalForm { 
+  width: 90%;
+  margin: 5% auto; 
+}
+.Mns_Mdl_Frame {
+  width: 100%;
+  min-height: 650px;
+}
+#symbol option {
+  padding-left: 1em;
+}

@@ -1,0 +1,145 @@
+.ModalTable {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+.ModalTable thead {
+  text-align: left;
+  background: #095256;
+  color: white;
+}
+.ModalTable thead th {
+  padding: 5px 0;
+}
+.ModalTable tbody td {
+  padding: 5px 0;
+}
+.BtnCol {
+  width: 60px;
+  text-align: center;
+}
+.CstrCol {
+  width: 125px;
+}
+.RtnCol {
+  width: 150px;
+}
+.TBL_RatIcons {
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-right: 5px;
+}
+.TBL_RatIcons img {
+  width: 100%;
+}
+.DateCol {
+  width: 90px;
+}
+.ModalTable .ESBtns {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 !important;
+  text-align: center;
+  line-height: 20px;
+  background: #204D74;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.ModalTable .ESBtns i {
+  display: block;
+  margin-top: 3px;
+  margin-left: -4px;
+}
+.ModalTable .ESBtns:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+.ModalTable .ESBtns:focus {
+  background-color: #2B6EA5;
+  color: white;
+}
+.ModalTable .BtnRed {
+  background: #bf0000;
+  color: white;
+}
+.ModalTable .BtnRed:hover {
+  background-color: #e50000;
+  color: white;
+}
+.ModalTable .BtnRed:focus {
+  background-color: #e50000;
+}
+.ReviewModalDivs {
+  width: 100%;
+  height: 550px;
+  overflow: auto;
+}
+#ReviewViewDiv {
+  display: none;
+}
+.DIV_ProductDataWrapper {
+  width: 100%;
+}
+.ProductName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.DataSpansDivs {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.DataLbls {
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+  float: left;
+  background: #095256;
+  color: white;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.DataSums {
+  display: inline-block;
+  width: 30px;
+  padding: 4px 5px;
+  margin-left: 10px;
+  float: left;
+  border: 1px solid #f4f4f4;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  text-align: center;
+}
+#DIV_ReviewsWrapper {
+  width: 100%;
+  height: 350px;
+  overflow: auto;
+}
+.DIV_Review {
+  width: 97%;
+  padding: 5px;
+  border: 1px solid #efeded;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  margin-bottom: 2em;
+}
+.ReviewDataEdited {
+  float: right;
+  margin-right: 10px;
+}
+.ReviewDataIcons {
+  float: right;
+}
+.DIV_ReplayWrapper {
+  width: 95%;
+  padding: 5px;
+  border: 1px solid #efeded;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  margin-bottom: 2em;
+  float: right;
+  margin-right: 10px;
+}

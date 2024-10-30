@@ -1,0 +1,172 @@
+
+#wpcontent {
+  padding: 0 !important;
+}
+.Mns_Tbl_Body_Table_Column,
+.Mns_Tbl_Body_Table_Img_Col {
+  padding-left: 0 !important;
+}
+.Mns_Tbl_Fld_Img {
+  float: left !important;
+}
+#Brands_webpage { width: 400px; }
+#Brands_visible_Header,
+#Brands_visible_Footer {
+  text-align: center;
+}
+.Mns_Tbl_Body_Table_Ctrl_Col {
+  text-align: center;
+}
+#DIV_Table {
+}
+#DIV_Edit {
+  display: none;
+  min-width: 397px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.Mns_Edit_Wrapper {
+  max-width: 100%;
+  min-width: 397px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  background: white !important;
+  padding: 10px;
+}
+.DIV_Cur_Img {
+  width: 100px;
+  text-align: center;
+}
+.Mns_Img_Container {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.Mns_Img_Container img {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Mns_Img_Container img[src=""] {
+  display: none;
+}
+.Mns_Img_Btn {
+  width: 50%;
+  float: left;
+}
+#TBL_Brands_Wrapper .Mns_Editable_Column {
+  width: 60%;
+}
+#BrandsInputsDiv {
+  display: table-cell;
+  width: 85%;
+  padding-left: 10px;
+}
+#BrandsLogoDiv {
+  width: 350px;
+  display: table-cell;
+}
+.DIV_Cur_Img {
+  width: 100%;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Mns_Img_Container {
+  width: 100%;
+  height: 140px;
+}
+#DispImg {
+  width: 100%;
+  height: 100%;
+}
+#BrandsNotes {
+  margin-top: 1em;
+}
+#NameMsg {
+  display: none;
+  width: 100%;
+  border: 1px solid rgba(255,0,0,.1);
+  padding: 2px 10px;
+  font-weight: bold;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(255,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(255,0,0,.1);
+  margin-bottom: 1em;
+}
+#NotesCtrl {
+  display: table-cell;
+  padding: 0 !important;
+  min-width: 50px;
+  vertical-align: top;
+}
+.TranslButtons {
+  height: 35px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  cursor: pointer;
+}
+.TranslButtons img {
+  height: 100%;
+}
+.TranslButtons:hover {
+  background: #095256;
+}
+.TranslSelected {
+  background: #095256;
+}
+#NotesEditor {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0;
+  padding-left: 10px;
+  width: 100%;
+  min-width: 300px;
+}
+.ColorWraper {
+  width: 250px;
+}
+.iris-picker,
+.iris-mozilla,
+.iris-border {
+  width: 200px !important;
+  z-index: 9999 !important;
+  position: absolute;
+  top: 45vh;
+  left: 58vh;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.iris-slider {
+  width: 15px !important;
+  height: 98% !important;
+}
+.iris-strip {
+  width: 15px !important;
+  height: 98% !important;
+}
+.RGBDiv {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.RGBDiv .label_symbol {
+  display: block;
+  width: 30%;
+  float: left;
+}
+.RGBNum {
+  color: black !important;
+}
+.TblClrBox {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+#FLD_Color {
+  width: 50px;
+  line-height: 50px;
+  background: white;
+  color: white;
+}

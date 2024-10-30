@@ -1,0 +1,253 @@
+
+#wpcontent { padding: 0 !important; }
+.form-control {
+  margin: 0;
+}
+.menu_button_row {
+  display: block;
+}
+#DIV_Edit {
+  min-width: 397px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.tabs {
+  background: transparent;
+  border: none !important;
+}
+.ui-tabs {
+  border: none !important;
+}
+.ui-tabs-nav {
+  border: none;
+  padding: 0 !important;
+  border-bottom: 1px solid #D8D8D8;
+  background: white !important;
+}
+textarea {
+    resize: none;
+}
+.OptionsTable {
+  width: 100%;
+}
+.LblCol {
+  width: 180px;
+  line-height: 2em;
+  font-weight: bold;
+}
+.FldCol {
+  line-height: 2em;
+}
+.ShipOptnElmnt {
+  display: inline-block;
+  float: left;
+  width: 180px;
+  margin: 5px;
+  margin-top: 0;
+}
+.ShipOptnElmnt .FLD_ShipOptn {
+  margin-top: 8px;
+  float: left;
+}
+.ColInfoSpan {
+  display: block;
+  font-size: 0.7em;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: -10px;
+}
+.BTN_Translations {
+  background: #204D74 !important;
+  color: white !important;
+  width: 20px !important;
+  height: 20px !important;
+  border: none !important;
+  box-shadow: none !important;
+  float: right !important;
+  padding: 0 !important;
+}
+.BTN_Translations i {
+  display: block !important;
+  margin-top: -1px !important;
+}
+.BTN_Translations:hover {
+  background-color: #2B6EA5 !important;
+  color: white !important;
+}
+.BTN_Translations:focus {
+  background-color: #2B6EA5 !important;
+  color: white !important;
+}
+#ShipOptListDiv {
+  width: 100%;
+  max-height: 250px;
+  overflow: auto;
+}
+.AccountTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.AccountTable th {
+  background: #fafafa;
+  background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:    -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background:         linear-gradient(top, #fafafa 0%, #eee 100%);
+  padding: 5px;
+  text-align: left;
+}
+.AccountTable tbody td {
+  padding: 5px;
+  font-weight: normal;
+}
+.EvenTblLine {
+  background: #fff;
+}
+.OddTblLine {
+  background: #f4f4f4;
+}
+.CtrlCol {
+  width: 50px;
+  text-align: center;
+}
+.ESBtns {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  background: #2c7002;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.ESBtns:hover {
+  background: #399b00;
+  color: white;
+}
+.ESBtns:focus {
+  background: #399b00;
+  color: white;
+}
+.ESBtns i {
+  display: block;
+  margin-top: 3px;
+}
+#BTN_AddBankAccount {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 1px;
+}
+.DelAccBtn {
+  background: #940107;
+  color: white;
+}
+.DelAccBtn:hover {
+  background-color: #e50000;
+  color: white;
+}
+.DelAccBtn:focus {
+  background-color: #e50000;
+  color: white;
+}
+#TBL_BankPay .PayPalFlds {
+  margin-bottom: 10px !important;
+}
+.IconCol {
+  width: 35px;
+}
+.IconCol img {
+  width: 100%;
+}
+.TransSlctrsDiv {
+  display: table-cell;
+  vertical-align: top;
+  width: 60px;
+  min-width: 60px;
+  height: 200px;
+  padding: 0;
+}
+.TransSlctrsWrap {
+  width: 60px;
+  height: 200px;
+  padding: 0;
+  text-align: center;
+  overflow: auto;
+}
+.MDL_LangSelector {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.MDL_LangSelector:hover {
+  background: green;
+}
+.LangSelected {
+  background: green;
+}
+.MDL_LangSelector img {
+  width: 40px;
+}
+.TransFldsDiv {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  height: 200px;
+  padding-left: 10px;
+}
+.ModalFld {
+  margin-bottom: 1em;
+}
+.MdlAlertBar {
+  width: 100%;
+  background-color: #F64B2F !important;
+  padding: 7px;
+  border: 1px solid transparent;
+  margin-bottom: 2em;
+  text-align: center;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  display: none;
+}
+#BnkAcntMdl .form-control{
+  margin-bottom: 1em;
+}
+.Mns_ImgDiv {
+  display: table-cell;
+  width: 160px;
+  padding: 0;
+}
+.Mns_Img_Container {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Mns_Img_Container img {
+}
+.selectIm {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Mns_ImgBtnDiv {
+  width: 100%;
+  text-align: center;
+}
+.Mns_Img_Btn {
+  display: inline-block;
+  width: 49%;
+  float: left;
+}
+.LandingFormWrapper {
+  width: 100%;
+}

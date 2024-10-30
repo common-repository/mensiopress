@@ -1,0 +1,206 @@
+
+#wpcontent { padding: 0 !important; }
+.Mns_MainMenuNav .action-item {
+  padding-left: 4px;
+  padding-right: 3px;
+}
+.tabs {
+  background: transparent;
+  border: none !important;
+}
+.ui-tabs {
+  border: none !important;
+}
+.ui-tabs .ui-tabs-panel {
+  padding: 0 !important;
+}
+.ui-tabs-nav {
+  border: none;
+  padding: 0 !important;
+  border-bottom: 1px solid #D8D8D8;
+  background: white !important;
+}
+.Mns_Tbl_Body_Table_Column {
+  width: 180px;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+.Mns_Editable_Column {
+  width: 660px;
+}
+.Mns_Tbl_Body_Table_Column_small {
+  width: 50px;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+#Tickets_closed_Header,
+#Tickets_closed_Footer {
+  text-align: center;
+}
+.Mns_Tbl_Body_Table_Column_small i {
+  background: none !important;
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-shadow: 2px 2px #c1c1c1;
+}
+.fa-envelope {
+  color: red;
+}
+.fa-envelope-open {
+  color: green;
+}
+#DIV_Edit {
+  display: none;
+  width: 100%;
+  min-width: 397px;
+  background: white;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.TicketStaticData {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px !important;
+  width: 30%;
+}
+.StcRelIrder {
+  width: 450px;
+}
+.RelOrderLine {
+  width: 100%;
+  line-height: 15px;
+}
+#BTN_ShowRelOrder {
+  background: #204D74;
+  color: white;
+  width: 15px;
+  height: 15px;
+  border: none;
+  box-shadow: none;
+  margin-right: 10px;
+}
+#BTN_ShowRelOrder i {
+  display: block;
+  margin-left: -6px;
+}
+.BTN_ShowRelOrder:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+.BTN_ShowRelOrder:focus {
+  background-color: #2B6EA5;
+  color: white;
+}
+.TicketStaticDataBtns {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px !important;
+  width: 150px;
+}
+.button_row {
+  float: right;
+  min-width: 0;
+  padding: 10px;
+  background: none;
+}
+.TicketDataTbl {
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.LblCol {
+  font-weight: bold;
+  width: 100px;
+}
+.TicketTextData {
+  width: 95%;
+  border: 1px solid #efeded;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  margin-bottom: 2em;
+  float: left;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+.TicketTitleSpan {
+  font-weight: bold;
+}
+#TicketHistoryData {
+  width: 100%;
+  margin-top: 1em;
+}
+.TckHstrElem {
+  width: 95%;
+  padding: 5px;
+  border: 1px solid #efeded;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  margin-bottom: 2em;
+  float: right;
+  margin-right: 10px;
+  text-align: justify;
+}
+.DtCol {
+  width: 350px;
+}
+.usrnmspan {
+  margin-left: 10px;
+}
+.AddrDiv {
+  width: 50%;
+  padding: 0;
+  float: left;
+  margin-top: 1em;
+}
+.AddrDivLeft {
+  padding-right: 5px;
+}
+.AddrDivRight {
+  padding-left: 5px;
+}
+.PrdDiv {
+  margin-top: 1em;
+}
+.ProductTable {
+  margin-top: 5px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.ProductTable th {
+  background: #095256;
+  color: white;
+  padding: 5px;
+  text-align: left;
+}
+.ProductTable tbody td {
+  padding: 5px;
+}
+.EvenTblLine {
+  background: #fff;
+}
+.OddTblLine {
+  background: #f4f4f4;
+}
+.SmlCol {
+  width: 80px;
+}
+.ActStat .fa-times {
+    color: red;
+}
+.ActStat .fa {
+  color: green;
+}
+.ActStat .fa-times {
+  color: red;
+}
+#MDL_ReplyText {
+  width: 100%;
+  height: 350px;
+  resize: none;
+  text-align: justify;
+}

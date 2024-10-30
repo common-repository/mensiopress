@@ -1,0 +1,42 @@
+#wpcontent {
+  padding: 0 !important;
+}
+#DIV_Table {
+}
+.td-fa {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#DIV_Edit {
+  display: none;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.SubSpace {
+  margin-left: 1em;
+}
+.Mns_EditWrapper {
+  width: 100%;
+  background: white;
+  padding: 10px;
+}
+.TransLabel {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+#symbol option {
+  padding-left: 1em;
+}
+.Modal_Wrapper .button {
+  background: #204D74;
+  color: white;
+  float: right;
+}
+.Modal_Wrapper .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+  cursor: pointer;
+}
+@media all and (max-width: 460px) {
+}

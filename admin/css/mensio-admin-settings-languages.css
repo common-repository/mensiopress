@@ -1,0 +1,113 @@
+#wpcontent {
+  padding: 0 !important;
+}
+#DIV_LangTable {
+}
+#DIV_LangEdit {
+  display: none;
+}
+.Mns_Languages_Main_Edit_Div {
+  width: inherit;
+  max-width: 95%;
+  min-width: 365px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  background: white;
+}
+.Mns_Languages_Main_Edit_Div label {
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:1em;
+  font-weight: bolder !important;
+}
+.Mns_Languages_Main_Edit_Div .form-control {
+  width: 100% !important;
+  margin-bottom: 1em;
+}
+.Mns_ExtraFields {
+  width: 50%;
+  float: left;
+}
+.Mns_lang_forms {
+  width: 98%;
+  max-height: 350px;
+  overflow: auto;
+  height: 350px;
+  margin-top: 1em;
+}
+.main_translation {
+	margin:0;
+  padding: 0;
+  width: 100%;
+}
+.main_translation label {
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:1em;
+  font-weight: bolder !important;
+}
+.main_translation .form-control {
+  width: 95% !important;
+}
+.Mns_LangEditDiv {
+  display: table-cell;
+  width: 100%;
+}
+.Mns_LangImgDiv {
+  display: table-cell;
+  min-width: 200px;
+  padding-left: 10px;
+}
+.Mns_Img_Container {
+  width: 100%;
+  height: 125px;
+  text-align: center;
+  padding-top: 10px;
+}
+.selectIm {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Mns_ImgBtnDiv {
+  width: 100%;
+  text-align: center;
+}
+.Mns_Img_Btn {
+  display: inline-block;
+  width: 49%;
+}
+.IconListWrap {
+  width: 100%;
+  height: 350px;
+  overflow: auto;
+}
+.IconElementWrap {
+  display: inline-block;
+  width: 85px;
+  height: 44px;
+  padding: 5px;
+  text-align: center;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.IconElementWrap img {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.IconElementWrap:hover {
+  background: green;
+}
+.SelectedIcon {
+  background: green;
+}

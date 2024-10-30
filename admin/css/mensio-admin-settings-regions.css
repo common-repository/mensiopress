@@ -1,0 +1,143 @@
+
+#wpcontent {
+  padding: 0 !important;
+}
+#Regions_currency {
+  width: 200px;
+}
+#DIV_Table {
+}
+#DIV_Edit{
+  display: none;
+  min-width: 397px;
+}
+.Mns_Edit_Wrapper {
+}
+#RegionEditDiv {
+  width: 350px;
+  display: table-cell;
+  vertical-align: top;
+}
+#RegionEdit {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.AccTab {
+  padding: 5px !important;
+}
+.AccTab .edit_row {
+  height: 500px;
+}
+.AccTab .button_row {
+  padding: 0!important;
+}
+#RegionTypeList {
+  margin-top: 1em;
+  height: 400px;
+  overflow: auto;
+}
+.RgnTypeBtn {
+  width: 95%;
+  margin: 5px auto;
+  padding: 2px;
+  padding-left: 10px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.RgTpBtns {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  float: right;
+  cursor: pointer;
+}
+#RegionListDiv {
+  vertical-align: top;
+  display: table-cell;
+  width: 100%;
+  min-width: 397px;
+  overflow: auto;
+  padding: 0 !important;
+  background: white !important;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.RegionListTitle {
+  width: 100%;
+  background: green;
+  padding: 1px;
+  padding-left: 1em;
+  background: #f2f2f2;
+  border-bottom: 1px solid #dddddd;
+}
+#RegionList {
+  width: 100%;
+  padding: 10px;
+  max-height: 550px;
+  overflow: auto;
+}
+.RegionsMenu {
+  width: 100%;
+}
+.RegionsItem {
+  width: 100%;
+}
+.RegionsDspl {
+  display: inline-block;
+  background: #F1F1F1;
+  border: 1px solid #ddd;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 300px;
+  line-height: 10px;
+  overflow: hidden;
+  word-wrap: break-word; 
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.RegionsDspl:hover {
+  background: #399B00;
+  color: white;
+  font-weight: bold;
+}
+.SelectedRegion {
+  background: #399B00;
+  color: white;
+  font-weight: bold;
+}
+.SubRegion {
+  margin-left: 2em;
+}
+.modal-body .button_row {
+  padding: 0;
+}
+.Modal_Wrapper .button {
+  background: #204D74;
+  color: white;
+  float: right;
+  border: none;
+  box-shadow: none;
+}
+.Modal_Wrapper .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+  cursor: pointer;
+}
+@media all and (max-width: 700px) {
+  #RegionEdit {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  .AccTab {
+    width: 100%;
+  }
+  #RegionListDiv {
+    width: 100%;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,71 @@
+@media screen and (min-width: 48em) {
+    body.has-sidebar:not(.error404) #primary {
+            float: left;
+            width: 74%;
+    }
+    body.has-sidebar:not(.error404) #secondary {
+            float: right;
+            padding-top: 0;
+            width: 20%;
+    }
+}
+div.mns-html-content *,
+div[class^="MensioTopRight"]{
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+}
+div.mns-html-content .mns-block .mns-list-item div.MensioProductListName {
+    margin-top:5px !important;
+}
+.mns-html-content button,.mns-html-content  input[type="button"],.mns-html-content  input[type="submit"]{
+    padding: 8px 15px !important;
+    border-radius: 5px !important;
+}
+.mns-html-content select,
+.mns-html-content input[type=text],
+.mns-html-content input[type=password]
+{
+    background:#ececec;
+    color:#000;
+}
+.mns-html-content .Mensio-Breadcrumbs a{
+    box-shadow:none;
+}
+.mns-block.mns-user .given input[type="text"] {
+    padding-left: 6px;
+}
+.ComparisonLink{
+    border-bottom:none;
+}
+.contact-info a{
+    text-decoration:none !important;
+    box-shadow:none !important;
+}
+select{
+    height:2em !important;
+}
+.mns-html-content ul:not(.Mensio-Breadcrumbs):not(.pagination):not(.advantages) li {
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+@media screen and (min-width: 48em){
+    body.mnshideentrytitle header.entry-header{
+        display:none;
+    }
+    body.mnshideentrytitle:not(.has-sidebar):not(.page-one-column) .page-header, body.mnshideentrytitle.has-sidebar.error404 #primary .page-header, body.mnshideentrytitle.page-two-column:not(.archive) #primary .entry-header, body.mnshideentrytitle.page-two-column.archive:not(.has-sidebar) #primary .page-header {
+        float: none;
+        width: 100%;
+    }
+    .blog.mnshideentrytitle:not(.has-sidebar) #primary article, .archive.mnshideentrytitle:not(.page-one-column):not(.has-sidebar) #primary article, .search.mnshideentrytitle:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar.mnshideentrytitle #primary .page-content, body.mnshideentrytitle.page-two-column:not(.archive) #primary .entry-content, body.mnshideentrytitle.page-two-column #comments {
+        float: none;
+        width: 100%;
+    }
+}
+.mns-block .mns-image a,
+.mns-block .mns-image a:hover{
+    box-shadow:none;
+}
+body.customize-support .custom-header {
+    position: relative;
+    margin-bottom: 75px !important;
+}

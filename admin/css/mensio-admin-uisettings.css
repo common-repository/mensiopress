@@ -1,0 +1,16 @@
+
+#wpcontent {
+  padding: 0 !important;
+}
+.menu_button_row {
+  display: block;
+}
+#DIV_Edit {
+  min-width: 397px;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.ProductTab {
+  padding: 10px;
+  background: white;
+}

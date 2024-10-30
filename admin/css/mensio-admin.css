@@ -1,0 +1,611 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic-ext,greek-ext');
+.wp-editor-tools {
+  z-index: 0 !important;
+}
+#toplevel_page_Mensio_Admin_Products,
+#toplevel_page_Mensio_Admin_Customers,
+#toplevel_page_Mensio_Admin_Orders,
+#toplevel_page_Mensio_Admin_Marketing,
+#toplevel_page_Mensio_Admin_Marketing_Coupons,
+#toplevel_page_Mensio_Admin_Reports_Commerce,
+#toplevel_page_Mensio_Admin_Settings_Store,
+#toplevel_page_Mensio_Admin_System {
+  display: none !important;
+}
+#toplevel_page_Mensio_Admin_Main_DashBoard .wp-first-item {
+  display: none !important;
+}
+*:focus {
+  outline: 0 none;
+	-moz-outline: 0 none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.wp-menu-image img {
+  width: 20px !important;
+  height: 20px !important;
+}
+.ui-state-active {
+  background: #095256 !important;
+}
+#adminmenuback,
+#adminmenuwrap {
+  z-index: 99999 !important;
+}
+.DivResizer {
+  clear: both;
+}
+#MENSIOLoader {
+  width: 100%;
+  position: fixed;
+  line-height: 120px;
+  margin: 0;
+  margin-top: 10%;
+  padding: 0;
+}
+#MENSIOLoader img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#MENSIO {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+}
+#MENSIO div {
+  box-sizing: border-box !important;
+}
+#MENSIOFootBar {
+  display: none;
+}
+.Mns_InfoBar {
+  background: #aba194;
+  color: #F4F4F4;
+}
+.Mns_HeaderBar {
+  width: 100%;
+  position: fixed;
+  top: 2.45em;
+  right: 0;
+  z-index: 999;
+  padding-left: 35px;
+}
+.Mns_HeadBar_Menu_Ctrl {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+#actions-div {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.action-item {
+  display: inline-block;
+  width: 65px;
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none !important;
+  outline: 0 none !important;
+  -moz-outline-style: 0 none !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+.action-item img {
+  width: 35px;
+  height: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.action-item:hover {
+  color: white;
+  text-decoration: none !important;
+  outline: 0 none !important;
+  -moz-outline-style: 0 none !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+.action-item:focus {
+  color: white;
+  text-decoration: none !important;
+  outline: 0 none !important;
+  -moz-outline-style: 0 none !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+.action-item:active {
+  color: white;
+  text-decoration: none !important;
+  outline: 0 none !important;
+  -moz-outline-style: 0 none !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+.action-item:visited {
+  color: white;
+  text-decoration: none !important;
+  outline: 0 none !important;
+  -moz-outline-style: 0 none !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+.action-txt {
+  display: inline-block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 0.85em;
+  color: white;
+}
+.item-selected {
+  background-color: #F1F1F1;
+}
+.Mns_MainMenuNav .action-item {
+  padding-left: 3px !important;
+  padding-right: 3px;
+}
+#Mns_HeaderBar_Menu .item-selected {
+  width: 67px !important;
+}
+.item-selected .action-txt {
+  color: black;
+  text-decoration: none;
+}
+@media all and (max-width:782px) {
+  .Mns_HeaderBar {
+    top: 3em;
+    padding-left: 0;
+  }
+}
+.Mns_MainMenuNav {
+  position: fixed;
+  display: inline-block;
+  left: 0;
+  top: 7.85em;
+  z-index: 999;
+  height: 100vh;
+  padding-left: 36px;
+}
+.Mns_MainMenuNav .action-item {
+  display: block;
+  float: right;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 0;
+  clear: both;
+}
+.menu_button_row {
+  float: right;
+  text-align: right;
+  margin-right: 1em;
+  margin-top: 10px;
+  display: none;
+}
+.menu_button_row .button {
+  background: #204D74;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border: none;
+  box-shadow: none;
+}
+.menu_button_row .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+.menu_button_row .button:focus {
+  background-color: #2B6EA5;
+  color: white;
+}
+.menu_button_row .BtnGreen {
+  background: #095256;
+  color: white;
+}
+.menu_button_row .BtnGreen:hover {
+  background-color: #399b00;
+  color: white;
+}
+.menu_button_row .BtnGreen:focus {
+  background-color: #399b00;
+  color: white;
+}
+.menu_button_row .BtnRed {
+  background: #940107;
+  color: white;
+}
+.menu_button_row .BtnRed:hover {
+  background-color: #e50000;
+  color: white;
+}
+.menu_button_row .BtnRed:focus {
+  background-color: #e50000;
+  color: white;
+}
+#Mns_HeaderBar_Notification_DropDown { 
+  float: right !important;
+  overflow: hidden;
+  height: 25px;
+  padding-top: 2px;
+}
+.AlertIcon {
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  padding-right: 10px;
+  margin-right: 5px;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+.AlertIcon i {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Notification_Number {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  width: 16px;
+  line-height: 16px;
+  font-size: 10px;
+  background: #2B6EA5;
+  color: white;
+  padding: 0px !important;
+  text-align: center;
+}
+.wrap {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.Mns_MainBody {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 5.5em;
+  padding-left: 6.5em;
+  padding-right: 1em;
+}
+.CtrlDiv {
+  width: 100%;
+  text-align: right;
+}
+#DIV_Error_Wrapper {
+  display: none;
+}
+.Mns_Page_HeadLine {
+  float: left;
+  font-variant: small-caps;
+}
+.Mns_Page_Breadcrumb {
+  margin-left: 1em;
+  font-size: 12px;
+  font-variant: small-caps;
+}
+#ButtonArea {
+  float: right;
+  margin-top: 1em;
+}
+.label_symbol{
+  cursor: default;
+  color: #095256;
+  padding-bottom: 0.8em;
+  padding-top: 0.8em;
+  font-weight: bold;
+  line-height: 10px !important;
+}
+.form-control {
+  width: 100%;
+  margin-bottom: 1em;
+  background: white;
+  color: black;
+}
+.button_row {
+  width: 100%;
+  min-width: 300px;
+  float: right;
+  background: white;
+  text-align: right;
+  padding: 1em;
+}
+.button_row .button {
+  background: #204D74;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border: none;
+  box-shadow: none;
+}
+.button_row .button i {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button_row .button:hover {
+  background-color: #2B6EA5;
+  color: white;
+}
+.button_row .button:focus {
+  background-color: #2B6EA5;
+  color: white;
+}
+.button_row .BtnGreen {
+  background: #095256;
+  color: white;
+}
+.button_row .BtnGreen:hover {
+  background-color: #399b00;
+  color: white;
+}
+.button_row .BtnGreen:focus {
+  background-color: #399b00;
+  color: white;
+}
+.button_row .BtnRed {
+  background: #940107;
+  color: white;
+}
+.button_row .BtnRed:hover {
+  background-color: #e50000;
+  color: white;
+}
+.button_row .BtnRed:focus {
+  background-color: #e50000;
+  color: white;
+}
+#MENSIOFootBar {
+  padding: 0 !important;
+}
+.Mns_FooterBar {
+  width: 100%;
+  padding: 6px;
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+}
+.Mns_FooterBar_Version {
+  float: right;
+}
+.Modal_Wrapper {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.ModalForm {
+  width: 65%;
+  margin: 10% auto;
+  background-color: white;
+  border: 1px solid #888;
+}
+.modal-header {
+}
+.modal-body {
+  padding: 20px;
+}
+.Mdl_Lbl_Title {
+  display: inline-block;
+  float: left;
+  margin-left: 8px;
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #095256;
+}
+.Mdl_Btn_Close {
+  display: inline-block;
+  color: #aaa;
+  float: right;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+.Mdl_Btn_Close:hover,
+.Mdl_Btn_Close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#Mns_Notification_SideBar {
+  display: none;
+  position: absolute;
+  width: 280px;
+  height: 500px;
+  bottom: 2.3em;
+  right: 0;
+  color: white;
+}
+#Mns_Notification_SideBar_Content {
+  display: block;
+  width: 100%;
+  height: 93%;
+}
+.SidePanelContent {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.SPC_AlertsDiv {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #ABA194;
+}
+.NotifTitle {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-top: -30px;
+  background: #9e9489;
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.AlertItem {
+  display: block;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+.AlertItem:hover {
+  background: white;
+  color: black;
+}
+#Mns_Notification_SideBar_Ctrl {
+  width: 100%;
+}
+#Mns_Notification_SideBar_Ctrl .button {
+  font-weight: bold;
+  color: white;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+}
+#Btn_Close i {
+  display: block;
+  margin-top: -6px;
+  margin-left: -5px;
+}
+#Btn_Clear i {
+  display: block;
+  margin-top: -6px;
+  margin-left: -7px;
+}
+.Notif {
+  height: 100% !important;
+}
+#Mns_PopUp_Wrapper {
+  display: none;
+  width: 300px;
+  position: absolute;
+  top: 5.5em;
+  right: 0.5em;
+  z-index: 9999;
+}
+.Mns_PopUp {
+  display: block;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  background: #23282D;
+  color: white;
+}
+.Mns_PopUp_Ctrl {
+  width: 100%;
+}
+.Mns_PopUp .button {
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+  width: 30px;
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  margin-bottom: 5px;
+}
+.Mns_PopUp .button:hover {
+  color: white !important;
+}
+.Mns_PopUp_Info {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  line-height: 15px;
+  overflow: auto;
+}
+.warning-div {
+  position: fixed;
+  background-color: #F64B2F !important;
+  padding: 7px;
+  border: 1px solid transparent;
+  margin-top: 5em;
+  z-index: 990;
+  text-align: center;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  display: none;
+  width: 100%;
+}
+#MENSIONO {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+#MENSIONO div {
+  box-sizing: border-box !important;
+}
+@media all and (max-width: 959px) {
+  #MENSIOLoader { display: none !important; }
+  #MENSIO { display: none !important; }
+  #MENSIOFootBar {display: none !important; }
+  #MENSIONO { display: inline; }
+}
+.MNSNO_MessageDiv {
+  display: block;
+  width: 350px;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background: white;
+  color: black;
+  -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.MNSNO_MessageWrap {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.MNSNO_MessageWrap i {
+  color: red;
+}
+.PageInfo {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  font-size: smaller;
+  font-style: italic;
+}

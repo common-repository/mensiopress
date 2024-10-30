@@ -1,0 +1,125 @@
+
+body.pages_page_mnsPrintAllPages #wpwrap{
+    background: #f1f1f1;
+}
+body.pages_page_mnsPrintAllPages #allPages .row .cell{
+    width:30%;
+}
+body.pages_page_mnsPrintAllPages #allPages .row:nth-child(even) a{
+    color:#000;
+}
+body.pages_page_mnsPrintAllPages #allPages .row:nth-child(odd) a,
+body.pages_page_mnsPrintAllPages #allPages .row:nth-child(odd){
+    color:#fff;
+}
+body.pages_page_mnsPrintAllPages #allPages .row:nth-child(odd){
+    background: #aba194;
+}
+#mnsPrintAllPages #allPages div a{
+    text-decoration:none;
+}
+#mnsPrintAllPages #allPages > .row{
+    padding:30px;
+}
+div#newMensioPage {
+    background:#fff;
+    width:50%;
+    padding:25px;
+    position:relative;
+}
+#newMensioPage div.row{
+    display:table-row;
+}
+#newMensioPage span.cell{
+    display:table-cell;
+}
+#newMensioPage span.cell select{
+    width:100%;
+}
+#mnsPrintAllPages div#newMensioPage{
+    height: 0;
+    padding: 30px;
+    margin: 100px auto;
+}
+#MENSIO .Mns_Tbl_Body_Table #Pages-Body tr td{
+    line-height:0 !important;
+    vertical-align: middle;
+    height:50px;
+    min-width:100px;
+}
+#Pages-Body td:hover .Mns_Subline{
+    display:block !important;
+    position:absolute;
+    bottom:10px;
+    left:10px;
+}
+#Pages-Body td{
+    padding:10px !important;
+    position: relative;
+}
+#Pages-Body td span a{
+    color:#000;
+}
+#Pages-Body td span.Mns_Editable_Column_Text a{
+    color:#095256;
+    text-decoration: none;
+}
+#PageSettings{
+    position:relative;
+    background:#fff;
+    padding:50px;
+    width:50%;
+    margin: 0 auto;
+    margin-top:100px;
+}
+.exitModalBox{
+    height: 30px;
+    width: 30px;
+    background: url(../../public/icons/close.png) no-repeat 100%;
+    float: right;
+    margin-top: -25px;
+    margin-right: -25px;
+    border: 1px solid #cecece;
+}
+#pageSettingsButton{
+    background:#095256 !important;
+    color:#ffff;
+    border: none !important;
+    position: fixed;
+    top: 52px;
+    right: 35px;
+    z-index: 999;
+}
+.button.BtnRed{
+    background:#940107;
+    color:#fff;
+    border-color: transparent;
+}
+.button.BtnRed:hover{
+    background:#e50000;
+    color:#fff;
+}
+.button.BtnGreen{
+    background:#095256;
+    color:#fff;
+    border-color: transparent;
+}
+.button.BtnGreen:hover{
+    background:#095256;
+    color:#fff;
+}
+.Mns_MainBody{
+    padding-left:4.5em;
+}
+.button_row{
+    float:none;
+}
+#newMensioPage span.cell select{
+    display:none;
+}
+.MnsCustomSelect {
+    position: absolute;
+    background: #fff;
+    padding: 0px 5px;
+    width: 500px;
+}
